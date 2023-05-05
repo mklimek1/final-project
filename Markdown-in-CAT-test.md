@@ -542,11 +542,12 @@ Syntax:
 
 <html>
    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <style>
          .jotaro {
             background-color: #4f8866;
             padding: 30px;
-            border: 5px solid tomato;
+            border: 5px solid #385A6B;
          }
         .wikkeda {
             font-size: 150%;
@@ -562,13 +563,22 @@ Syntax:
             This is an <kbd>HTML</kbd> text with added <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">styles</a>.
          </p>
          <p>
-            This is just a plain <em>HTML</em> text with one style.
+            This is just a plain <em>HTML</em> text within <code>div</code> style.
          </p>
       </div>
       <div>
          <p>
             This is just a plain <em>HTML</em> text without any style.
          </p>
+         <p>
+            This is a JavaScript sample that counts down from 40 seconds to 0.
+         </p>
+         <p>   
+            Countdown: <span class="js-timeout">00:40</span>.
+         </p>
+            <button id="js-startTimer">Start Countdown</button>
+            <button id="js-resetTimer">Stop &amp; Reset</button>
+            <script src="./timer.js"></script>
       </div>
     </body>
 </html>
@@ -577,11 +587,12 @@ Syntax:
 ```html
 <html>
    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <style>
          .jotaro {
             background-color: #4f8866;
             padding: 30px;
-            border: 5px solid tomato;
+            border: 5px solid #385A6B;
          }
         .wikkeda {
             font-size: 150%;
@@ -597,13 +608,22 @@ Syntax:
             This is an <kbd>HTML</kbd> text with added <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">styles</a>.
          </p>
          <p>
-            This is just a plain <em>HTML</em> text with one style.
+            This is just a plain <em>HTML</em> text within <code>div</code> style.
          </p>
       </div>
       <div>
          <p>
             This is just a plain <em>HTML</em> text without any style.
          </p>
+         <p>
+            This is a JavaScript sample that counts down from 40 seconds to 0.
+         </p>
+         <p>   
+            Countdown: <span class="js-timeout">00:40</span>.
+         </p>
+            <button id="js-startTimer">Start Countdown</button>
+            <button id="js-resetTimer">Stop &amp; Reset</button>
+            <script src="./timer.js"></script>
       </div>
     </body>
 </html>
@@ -611,17 +631,20 @@ Syntax:
 
 ## Summary
 
-I'm aware that placing Markdown syntax inside HTML tags, like `<p>paragraph</p>`, turns them off in some processors.
+This sums up combination of `HTML` tags within an `*.md` file.
 
 # Conclusion
 
-I hope this extensive — but definitely not exhaustive — list of Markdown and HTML tags will be a good test for *Wordfast Pro* and *Trados Studio 2022*.
+I hope this extensive — but definitely not exhaustive — list of Markdown and HTML tags will be a good test for *Wordfast Pro*, *Trados Studio 2022*, and *memoQ 10*.
 
-I've written this Markdown file in Visual Studio Code that doesn't show all Markdown syntax in the preview window, i.e.:
+I've written this Markdown file in Visual Studio Code that doesn't show the following elements in the preview window:
  - highlight
  - subscript
  - superscript
  - footnotes
+ - collapsed section
+ - definition
+ - JavaScript
 
 Also, not all Markdown syntax or HTML tags work in Github viewer.
 
@@ -630,3 +653,4 @@ Also, not all Markdown syntax or HTML tags work in Github viewer.
 1. [Markdownguide.org](https://www.markdownguide.org/)
 2. [Keyboard glyphs](https://meta.stackexchange.com/questions/5527/keyboard-glyphs)
 3. [Collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
+4. [Daring Fireball](https://daringfireball.net/projects/markdown/)
