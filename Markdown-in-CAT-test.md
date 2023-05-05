@@ -440,7 +440,7 @@ I'll check the following HTML and other tags:
 
 Syntax: `<p>Lorem ipsum</p>`
 
-==**Note**==: Markdown syntax is ignored in `<p></p>` HTML tag
+==**Note**==: Markdown syntax is ignored in block elements, like `<p></p>` HTML tag.
 
 ## Code
 
@@ -452,7 +452,7 @@ Syntax:
 - `<code>\*\*bold** \_italic_</code>`
 - `<code>**bold** _italic_</code>`
 
-==**Noted**==: Markdown syntax **is not** ignored in `<code></code>` tags
+==**Noted**==: Markdown syntax **is not** ignored in span elements, like `<code></code>` tags.
 
 ## Collapsed Section
 
@@ -543,48 +543,75 @@ Syntax:
 <html>
    <head>
       <style>
-        body {
-            background-color: grey;
-        }
-        .info {
-            font-size: 150%;
-            text-align: center;
-            font-family: 'Courier New', Courier, monospace;
-            color: #baed91;
+         .jotaro {
+            background-color: #4f8866;
             padding: 30px;
             border: 5px solid tomato;
-            background-color: #000;
+         }
+        .wikkeda {
+            font-size: 150%;
+            font-family: 'Courier New', Courier, monospace;
+            color: #385A6B;
             font-style: italic;
-        }
-        .warning {
-            font-family: sans-serif;
-            color: rgb(248, 184, 139);
-            padding: 20px;
-            padding-right: 40px;
-            border: 10px solid rgb(248, 184, 139);
-            text-align: right;
-            background-color: hsl(300, 61%, 33%);
-            text-transform: uppercase;
-        }
-        .error {
-            font-family: serif;
-            padding: 100px;
-            padding-left: 20px;
-            border: 20px solid hsl(0, 100%, 64%);
-            background-color: #FFB428;
-            text-transform: capitalize;
-            text-decoration: underline;
-            text-align: left;
-            border-radius: 20%;
-            font-weight: bold;
         }
     </style>
    </head>
+    <body>
+      <div class="jotaro">
+         <p class="wikkeda">
+            This is an <kbd>HTML</kbd> text with added <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">styles</a>.
+         </p>
+         <p>
+            This is just a plain <em>HTML</em> text with one style.
+         </p>
+      </div>
+      <div>
+         <p>
+            This is just a plain <em>HTML</em> text without any style.
+         </p>
+      </div>
+    </body>
 </html>
+
+Syntax:
+```html
+<html>
+   <head>
+      <style>
+         .jotaro {
+            background-color: #4f8866;
+            padding: 30px;
+            border: 5px solid tomato;
+         }
+        .wikkeda {
+            font-size: 150%;
+            font-family: 'Courier New', Courier, monospace;
+            color: #385A6B;
+            font-style: italic;
+        }
+    </style>
+   </head>
+    <body>
+      <div class="jotaro">
+         <p class="wikkeda">
+            This is an <kbd>HTML</kbd> text with added <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">styles</a>.
+         </p>
+         <p>
+            This is just a plain <em>HTML</em> text with one style.
+         </p>
+      </div>
+      <div>
+         <p>
+            This is just a plain <em>HTML</em> text without any style.
+         </p>
+      </div>
+    </body>
+</html>
+```
 
 ## Summary
 
-I'm <p class="info">aware that placing Markdown syntax inside HTML tags</p>, like `<p>paragraph</p>`, turns them off in some processors.
+I'm aware that placing Markdown syntax inside HTML tags, like `<p>paragraph</p>`, turns them off in some processors.
 
 # Conclusion
 
