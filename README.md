@@ -1,2 +1,4 @@
-# final-project
-Final project for Technical Communication studies
+# Final Project
+===
+
+Final project for Technical Communication studies.
