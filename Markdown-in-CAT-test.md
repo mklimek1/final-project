@@ -1,4 +1,4 @@
-How Markdown is Processed by Wordfast Pro 7 and Trados Studio 2022 <!-- omit in toc -->
+How Markdown is Processed by Wordfast Pro 8, Trados Studio 2022, and memoQ 10<!-- omit in toc -->
 ===
 
 <!-- This here is a comment. And I'd like to create a TOC below -->
@@ -60,12 +60,12 @@ How Markdown is Processed by Wordfast Pro 7 and Trados Studio 2022 <!-- omit in 
 
 # Introduction
 
-<p>I wrote this file to test how two Computer-Aided Translation programs – Wordfast Pro 7 and Trados 2022 – read Markdown files.</p>
+I wrote this file to test how three Computer-Aided Translation programs – Wordfast Pro 8, Trados Studio 2022, and memoQ 10 – read Markdown files.
 
 ## What is a CAT?
 [Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation) software (usually known as CAT) is a program that helps translators translate various files, including Markdown *.md files.
 
-There are **many** diferent CATs. Two of them are *Wordfast Pro* and *Trados Studio 2022*.
+There are **many** diferent CATs. Three of them are *Wordfast Pro*, *Trados Studio 2022*, and *memoQ*.
 ## Why is This Important?
 Markdown files have unusual formatting. The syntax for __bold__ can be for example: `__bold__`.  
 The question arises: Will a CAT know which symbol is part of Markdown syntax and which is used as part of the text?
@@ -110,9 +110,10 @@ I'll check the following Markdown syntax:
 
 ---
 
-This will allow us to see which elements of Markdown syntax are – or **are not** – read by two CATs:
+This will allow us to see which elements of Markdown syntax are – or **are not** – read by three CATs:
 - _Wordfast Pro_
 - _Trados Studio 2022_
+- _memoQ 10_
 
 ## Basic Syntax
 This section contains basic Markdown syntax.
@@ -202,13 +203,13 @@ Syntax:
 ```
   
 ## Links
-Here we'll see how different types of links are interpreted by *Wordfast Pro* and *Trados Studio 2022*.
+Here we'll see how different types of links are interpreted by *Wordfast Pro*, *Trados Studio 2022*, and _memoQ 10_.
 
 ### Links to Sections with Headers
 The link to section on [**Bold** is here](#bold).
 
 ### Links to Files
-The link to [a Markdown file in the __repository__ is _here_](Project-Woźnikowski-2022-11-27.md).
+The link to [a Markdown file in the __repository__ is _here_](README.md).
 
 ### Links to Images
 1. The link to [an image in the **repository** is *here*](Images/IMG_20200401_210429.jpg).
@@ -242,14 +243,14 @@ This section contains various ways of quoting text or code.
 
 > This is an example of a quote.
 > 
-> This quote ~~doesn't~~ also includes __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
+> This quote ~~doesn't~~ *also* include*s* __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
 
 
 Syntax:
 ```
 > This is an example of a quote.
 > 
-> This quote ~~doesn't~~ also includes __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
+> This quote ~~doesn't~~ *also* include*s* __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
 ```
 
 ### Inline Code
@@ -263,7 +264,7 @@ Syntax:
 
 ### Block Code
 
-This is an example of block code with:
+This is an example of block code with Markdown syntax:
 ```
 1. __Bold__
 2. *Italic*
@@ -272,8 +273,49 @@ This is an example of block code with:
    > - unordered list
 4. Link [to a very wise person](https://en.wikipedia.org/wiki/Arthur_Schopenhauer)
 ```
+<!-- TUTAJ DODAĆ JESZCZE CYTAT Z JS-->
 
-Syntax: ` ```code``` `
+This is an example of block code with JavaScript syntax:
+
+```js
+// This is the code I found somewhere and adapted to another project.
+var interval;
+
+function countdown() {
+  clearInterval(interval);
+  interval = setInterval( function() {
+      var timer = $('.js-timeout').html();
+      timer = timer.split(':');
+      var minutes = timer[0];
+      var seconds = timer[1];
+      seconds -= 1;
+      if (minutes < 0) return;
+      else if (seconds < 0 && minutes != 0) {
+          minutes -= 0;
+          seconds = 40;
+      }
+      else if (seconds < 10 && length.seconds != 2) seconds = '0' + seconds;
+
+      $('.js-timeout').html(minutes + ':' + seconds);
+
+      if (minutes == 0 && seconds == 0) clearInterval(interval);
+  }, 1000);
+}
+
+$('#js-startTimer').click(function () {
+  $('.js-timeout').text("00:40");
+  countdown();
+});
+
+$('#js-resetTimer').click(function () {
+  $('.js-timeout').text("00:40");
+  clearInterval(interval);
+});
+```
+
+Syntax (part): ` ```js
+// This is the code I found somewhere and adapted to another project.
+var interval;``` `
 
 ## Extended Syntax
 
@@ -369,12 +411,14 @@ Below this sentence there's a comment to be omitted by Markdown processors:
 Syntax: `<!--- Comment --->`
 
 ## Summary
-
+<!--- TUTAJ DODAĆ JESZCZE BARDZIEJ ROZWINIĘTĄ PRÓBKĘ TEKSTU --->
 **This _sums_ ~~~down~~~ ^up^:**
-- ___the `Basic` [Markdown](https://en.wikipedia.org/wiki/Markdown) Syntax :sweat_smile:___
+- ___the `Basic` [Markdown](https://en.wikipedia.org/wiki/Markdown "Cool, innit?") Syntax :sweat_smile:___
+- *And all of it in a \*.md file*
+- This_is___so__emphatic — this*is***so**emphatic
 
 # HTML and Other Tags
-
+<!-- TUTAJ JESZCZE DAĆ PO PROSTU BLOK KODU HTML GDZIEŚ-->
 ## General Information
 
 I'll check the following HTML and other tags:
@@ -387,20 +431,28 @@ I'll check the following HTML and other tags:
 7. [Subscript](#subscript-1)
 8. [Superscript](#superscript-1)
 9. [Combination of tags and Markdown syntax](#combination-of-tags-and-markdown-syntax)
+10. [Pure HTML syntax](#pure-html-syntax)
 
 ## Paragraph
 
-<p>This is lorem ipsum: lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper ante sit amet aliquet convallis. Integer mollis urna quis velit mattis facilisis.</p>
+<p>**This is *lorem ipsum***: lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper ante sit amet aliquet convallis. Integer mollis urna quis velit mattis facilisis.</p>
 <p>Vestibulum pulvinar sed eros vitae eleifend. Mauris et ligula metus. Nunc elementum vestibulum arcu quis ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
 Syntax: `<p>Lorem ipsum</p>`
 
+==**Note**==: Markdown syntax is ignored in `<p></p>` HTML tag
+
 ## Code
 
-This is a sample code:
-<code>\*\*bold** \_italic_</code>
+This is sample code:
+- <code>\*\*bold** \_italic_</code>
+- <code>**bold** _italic_</code>
 
-Syntax: `<code>\*\*bold** \_italic_</code>`
+Syntax:
+- `<code>\*\*bold** \_italic_</code>`
+- `<code>**bold** _italic_</code>`
+
+==**Noted**==: Markdown syntax **is not** ignored in `<code></code>` tags
 
 ## Collapsed Section
 
@@ -436,7 +488,7 @@ Syntax (part):
 
 Use <kbd>W</kbd>, <kbd>S</kbd>, <kbd>A</kbd>, <kbd>D</kbd> keys to move your character in a video game.
 
-And never touch the <kbd>Windows</kbd> key!
+And never touch the <kbd>Windows</kbd> key :exploding_head:!
 
 Syntax: `<kbd>Windows</kbd>`
 
@@ -480,16 +532,59 @@ Syntax: `<sup>text</sup>`
 
 ##  Combination of Tags and Markdown Syntax
 
-*This* is __a combination__ of <mark>various</mark> <kbd>key</kbd> <sup>components</sup> of [Markdown](https://en.wikipedia.org/wiki/Markdown) and <code>tags</code>.
+*This* is __a combination__ of <mark>various</mark> <kbd>key</kbd> <sup>components</sup> of [Markdown](https://en.wikipedia.org/wiki/Markdown) and <em>HTML</em> <code>tags</code>.
 
 Syntax:
 ```
-*This* is __a combination__ of <mark>various</mark> <kbd>key</kbd> <sup>components</sup> of [Markdown](https://en.wikipedia.org/wiki/Markdown) and <code>tags</code>.
+*This* is __a combination__ of <mark>various</mark> <kbd>key</kbd> <sup>components</sup> of [Markdown](https://en.wikipedia.org/wiki/Markdown) and <em>HTML</em> <code>tags</code>.
 ```
+## Pure HTML syntax
+
+<html>
+   <head>
+      <style>
+        body {
+            background-color: grey;
+        }
+        .info {
+            font-size: 150%;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: #baed91;
+            padding: 30px;
+            border: 5px solid tomato;
+            background-color: #000;
+            font-style: italic;
+        }
+        .warning {
+            font-family: sans-serif;
+            color: rgb(248, 184, 139);
+            padding: 20px;
+            padding-right: 40px;
+            border: 10px solid rgb(248, 184, 139);
+            text-align: right;
+            background-color: hsl(300, 61%, 33%);
+            text-transform: uppercase;
+        }
+        .error {
+            font-family: serif;
+            padding: 100px;
+            padding-left: 20px;
+            border: 20px solid hsl(0, 100%, 64%);
+            background-color: #FFB428;
+            text-transform: capitalize;
+            text-decoration: underline;
+            text-align: left;
+            border-radius: 20%;
+            font-weight: bold;
+        }
+    </style>
+   </head>
+</html>
 
 ## Summary
 
-I'm aware that placing Markdown syntax inside HTML tags, like `<p>paragraph</p>`, turns them off in some processors.
+I'm <p class="info">aware that placing Markdown syntax inside HTML tags</p>, like `<p>paragraph</p>`, turns them off in some processors.
 
 # Conclusion
 
