@@ -29,7 +29,7 @@ How Markdown is Processed by Wordfast Pro 8, Trados Studio 2022, and memoQ 10<!-
     - [Links to YouTube](#links-to-youtube)
     - [Syntax for Links](#syntax-for-links)
   - [Quotations](#quotations)
-    - [Blockquote](#blockquote)
+    - [Block Quote](#block-quote)
     - [Inline Code](#inline-code)
     - [Block Code](#block-code)
   - [Extended Syntax](#extended-syntax)
@@ -54,6 +54,7 @@ How Markdown is Processed by Wordfast Pro 8, Trados Studio 2022, and memoQ 10<!-
   - [Subscript](#subscript-1)
   - [Superscript](#superscript-1)
   - [Combination of Tags and Markdown Syntax](#combination-of-tags-and-markdown-syntax)
+  - [Pure HTML syntax with JavaScript](#pure-html-syntax-with-javascript)
   - [Summary](#summary-1)
 - [Conclusion](#conclusion)
 - [Sources](#sources)
@@ -431,7 +432,7 @@ I'll check the following HTML and other tags:
 7. [Subscript](#subscript-1)
 8. [Superscript](#superscript-1)
 9. [Combination of tags and Markdown syntax](#combination-of-tags-and-markdown-syntax)
-10. [Pure HTML syntax](#pure-html-syntax)
+10. [Pure HTML syntax with JavaScript](#pure-html-syntax-with-javascript)
 
 ## Paragraph
 
@@ -538,7 +539,7 @@ Syntax:
 ```
 *This* is __a combination__ of <mark>various</mark> <kbd>key</kbd> <sup>components</sup> of [Markdown](https://en.wikipedia.org/wiki/Markdown) and <em>HTML</em> <code>tags</code>.
 ```
-## Pure HTML syntax
+## Pure HTML syntax with JavaScript
 
 <html>
    <head>
