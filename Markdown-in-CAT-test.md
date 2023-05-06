@@ -67,7 +67,7 @@ I wrote this file to test how three Computer-Aided Translation programs — Word
 ## What is a CAT?
 [Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation) software (usually known as CAT) is a program that helps translators translate various files, including Markdown *.md files.
 
-There are **many** diferent CATs. Three of them are *Wordfast Pro*, *Trados Studio 2022*, and *memoQ*.
+There are **many** diferent CATs. Three of them are *Wordfast Pro*, *Trados Studio*, and *memoQ*.
 ## Why is This Important?
 Markdown files have unusual formatting. The syntax for __bold__ can be for example: `__bold__`.  
 The question arises: Will a CAT know which symbol is part of Markdown syntax and which is used as part of the text?
@@ -113,7 +113,7 @@ I'll check the following Markdown syntax:
 ---
 
 This will allow us to see which elements of Markdown syntax are — or **are not** — read by three CATs:
-- _Wordfast Pro_
+- _Wordfast Pro 8_
 - _Trados Studio 2022_
 - _memoQ 10_
 
