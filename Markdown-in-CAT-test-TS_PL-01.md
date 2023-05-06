@@ -523,7 +523,7 @@ Oto zwykła sekcja.
 | 1\.| Agnes| **Aardvark**|
 | 2\.| Burt| _Butterly_|
 
-Bardzo [ważny odniesienie](https://youtu.be/dQw4w9WgXcQ?t=43).
+Bardzo [ważne odniesienie](https://youtu.be/dQw4w9WgXcQ?t=43).
 
 </p>
 </details>
@@ -582,7 +582,7 @@ Składnia: `<sub>text</sub>`.
 
 ## Indeks górny
 
-Oto przykład <sup>indeksu dolnego</sup> w HTML. <sup>Nie wszystkie</sup> procesory języka Markdown interpretują ten rodzaj indeksu górnego.
+Oto przykład <sup>indeksu górnego</sup> w HTML. <sup>Nie wszystkie</sup> procesory języka Markdown interpretują ten rodzaj indeksu górnego.
 
 Składnia: `<sup>text</sup>`.
 
