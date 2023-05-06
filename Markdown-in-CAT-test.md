@@ -188,6 +188,7 @@ Syntax:
 ```
 ### Combination of Basic Syntax
 
+
 1. *Item with **very important** text*
    - this **simply ~~*wrong*~~**
    - this is __very _important___ as well
@@ -453,7 +454,7 @@ Syntax:
 - `<code>\*\*bold** \_italic_</code>`
 - `<code>**bold** _italic_</code>`
 
-==**Noted**==: Markdown syntax **is not** ignored in span elements, like `<code></code>` tags.
+==**Note**==: Markdown syntax **is not** ignored in span elements, like `<code></code>` tags.
 
 ## Collapsed Section
 
