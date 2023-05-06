@@ -49,20 +49,20 @@ How Markdown is Processed by Wordfast Pro 8, Trados Studio 2022, and memoQ 10<!-
   - [Paragraph](#paragraph)
   - [Code](#code)
   - [Collapsed Section](#collapsed-section)
-  - [Keyboard keys](#keyboard-keys)
+  - [Keyboard Keys](#keyboard-keys)
   - [Definition](#definition)
   - [Highlight](#highlight-1)
   - [Subscript](#subscript-1)
   - [Superscript](#superscript-1)
   - [Combination of Tags and Markdown Syntax](#combination-of-tags-and-markdown-syntax)
-  - [Pure HTML syntax with JavaScript](#pure-html-syntax-with-javascript)
+  - [Pure HTML Syntax with JavaScript](#pure-html-syntax-with-javascript)
   - [Summary](#summary-1)
 - [Conclusion](#conclusion)
 - [Sources](#sources)
 
 # Introduction
 
-I wrote this file to test how three Computer-Aided Translation programs – Wordfast Pro 8, Trados Studio 2022, and memoQ 10 – read Markdown files.
+I wrote this file to test how three Computer-Aided Translation programs — Wordfast Pro 8, Trados Studio 2022, and memoQ 10 — read Markdown files.
 
 ## What is a CAT?
 [Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation) software (usually known as CAT) is a program that helps translators translate various files, including Markdown *.md files.
@@ -81,38 +81,38 @@ We'll learn soon enough.
 ## General Information
 
 I'll check the following Markdown syntax:
-1. [Basic syntax](#basic-syntax):
+1. [Basic Syntax](#basic-syntax):
    1. [Header](#header)
    2. [Bold](#bold)
    3. [Italic](#italic)
    4. [Strikethrough](#strikethrough)
-   5. [Ordered list](#ordered-list)
-   6. [Unordered list](#unordered-list)
+   5. [Ordered List](#ordered-list)
+   6. [Unordered List](#unordered-list)
 2. [Links](#links):
-   1. [Links to sections with headers](#links-to-sections-with-headers)
-   2. [Links to files](#links-to-files)
-   3. [Links to images](#links-to-images)
-   4. [Links to websites](#links-to-websites)
+   1. [Links to Sections with Headers](#links-to-sections-with-headers)
+   2. [Links to Files](#links-to-files)
+   3. [Links to Images](#links-to-images)
+   4. [Links to Websites](#links-to-websites)
    5. [Links to YouTube](#links-to-youtube)
 3. [Quotations](#quotations):
    1. [Blockquote](#blockquote)
-   2. [Inline code](#inline-code)
-   3. [Code block](#code-block)
-4. [Extended syntax](#extended-syntax):
+   2. [Inline Code](#inline-code)
+   3. [Code Block](#code-block)
+4. [Extended Syntax](#extended-syntax):
    1. [Tables](#tables)
    2. [Definition](#definition)
-   3. [Task list](#task-list)
+   3. [Task List](#task-list)
    4. [Emoji](#emoji)
    5. [Highlight](#highlight)
    6. [Subscript](#subscript)
    7. [Superscript](#superscript)
    8. [Footnotes](#footnotes)
-   9. [Ignoring Markdown formatting](#ignoring-markdown-formatting)
-   10. [Comments to be omitted](#comments-to-be-omitted)
+   9. [Ignoring Markdown Formatting](#ignoring-markdown-formatting)
+   10. [Comments to Be Omitted](#comments-to-be-omitted)
 
 ---
 
-This will allow us to see which elements of Markdown syntax are – or **are not** – read by three CATs:
+This will allow us to see which elements of Markdown syntax are — or **are not** — read by three CATs:
 - _Wordfast Pro_
 - _Trados Studio 2022_
 - _memoQ 10_
@@ -244,7 +244,7 @@ Find a few examples of links with hover text below.
 
 ### Syntax for Links
 
-Syntax for links examples:
+Syntax for links — examples:
 1. `[**Bold** is here](#bold)`
 2. `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
 3. `[![I am a DJ](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk "I am what I play")`
@@ -262,7 +262,7 @@ This section contains various ways of quoting text or code.
 > 
 > This quote ~~doesn't~~ *also* include*s* __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
 > 
-> — *Confusious*
+> — *Confusius*
 
 
 Syntax:
@@ -274,7 +274,7 @@ Syntax:
 > 
 > This quote ~~doesn't~~ *also* include*s* __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
 > 
-> — *Confusious*
+> — *Confusius*
 ```
 
 ### Inline Code
@@ -414,7 +414,7 @@ Syntax: `This is another footnote. [^bignote]`
 
 [^1]: Additional information
 
-[^bignote]: Additional information
+[^bignote]: Even more additional information
 
 ### Ignoring Markdown Formatting
 
@@ -449,13 +449,13 @@ I'll check the following HTML and other tags:
 1. [Paragraph](#paragraph)
 2. [Code](#code)
 3. [Collapsed Section](#collapsed-section)
-4. [Keyboard keys](#keyboard-keys)
+4. [Keyboard Keys](#keyboard-keys)
 5. [Definition](#definition)
 6. [Highlight](#highlight-1)
 7. [Subscript](#subscript-1)
 8. [Superscript](#superscript-1)
-9. [Combination of tags and Markdown syntax](#combination-of-tags-and-markdown-syntax)
-10. [Pure HTML syntax with JavaScript](#pure-html-syntax-with-javascript)
+9. [Combination of Tags and Markdown Syntax](#combination-of-tags-and-markdown-syntax)
+10. [Pure HTML Syntax with JavaScript](#pure-html-syntax-with-javascript)
 
 ## Paragraph
 
@@ -469,11 +469,11 @@ Syntax: `<p>Lorem ipsum</p>`
 ## Code
 
 This is sample code:
-- <code>\*\*bold** \_italic_</code>
+- <code>\<p>Access code: Denied\</p></code>
 - <code>**bold** _italic_</code>
 
 Syntax:
-- `<code>\*\*bold** \_italic_</code>`
+- `<code>\<p>Access code: Denied\</p></code>`
 - `<code>**bold** _italic_</code>`
 
 ==**Note**==: Markdown syntax **is not** ignored in span elements, like `<code></code>` tags.
@@ -508,7 +508,7 @@ Syntax (part):
 </details>
 ```
 
-## Keyboard keys
+## Keyboard Keys
 
 Use <kbd>W</kbd>, <kbd>S</kbd>, <kbd>A</kbd>, <kbd>D</kbd> keys to move your character in a video game.
 
