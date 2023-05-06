@@ -13,7 +13,7 @@ Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro, Trados Studio
   - [Dlaczego jest to ważne?](#why-is-this-important)
 - [Składnia Markdown](#markdown-syntax)
   - [Informacje ogólne](#general-information)
-  - [Składnia podstawowa](#basic-syntax)
+  - [składnia-podstawowa](#basic-syntax)
     - [Nagłówek](#header)
     - [Pogrubienie](#bold)
     - [Kursywa](#italic)
@@ -27,11 +27,12 @@ Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro, Trados Studio
     - [Odniesienia do plików graficznych](#links-to-images)
     - [Odniesienia do stron www](#links-to-websites)
     - [Odniesienia do materiałów wideo na YouTube](#links-to-youtube)
+    - [Odnośniki z tekstem podpisu](#links-with-hover-text)
     - [Składnia dotycząca odniesień](#syntax-for-links)
   - [Cytowanie](#quotations)
-    - [Cytat blokowy](#block-quote)
+    - [Cytat blokowy](#blockquote)
     - [Wiersz kodu](#inline-code)
-    - [Blok kodu](#block-code)
+    - [Blok kodu](#code-block)
   - [Składnia rozszerzona](#extended-syntax)
     - [Tabele](#tables)
     - [Lista zadań](#task-list)
@@ -61,12 +62,12 @@ Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro, Trados Studio
 
 # Wprowadzenie
 
-Plik ten powstał do sprawdzenia, jak trzy programy wspomagające tłumaczenie (ang. *Computer-Aided Translation*; CAT) – Wordfast Pro, Trados Studio 2022 i memoQ 10 – odczytują pliki w formacie Markdown.
+Plik ten powstał do sprawdzenia, jak trzy programy wspomagające tłumaczenie (ang. *Computer-Aided Translation*; CAT) — Wordfast Pro, Trados Studio 2022 i memoQ 10 — odczytują pliki w formacie Markdown.
 
 ## Czym jest CAT?
 Oprogramowanie wspomagające tłumaczenie (ang. [Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation), zwane powszechnie jako CAT) to program, który pomaga tłumaczom tłumaczyć różnego rodzaju pliki, w tym pliki w formacie Markdown – *.md.
 
-Istnieje **wiele** różnych programów typu CAT. Trzy z nich to *Wordfast Pro*, *Trados Studio 2022* i *memoQ*.
+Istnieje **wiele** różnych programów typu CAT. Trzy z nich to *Wordfast Pro*, *Trados Studio* i *memoQ*.
 ## Dlaczego jest to ważne?
 Pliki Markdown mają nietypowy rodzaj formatowania. Składnia dla __pogrubienia__ może wyglądać na przykład tak: `__bold__`.
 Powstaje pytanie: Czy program CAT będzie wiedzieć, który symbol jest elementem składnik Markdown, a który został użyty jako część tekstu?
@@ -96,7 +97,7 @@ Sprawdzimy następującą składnię Markdown:
 3. [Cytowanie](#quotations):
    1. [Cytat blokowy](#blockquote)
    2. [Wiersz kodu](#inline-code)
-   3. [Blok kodu](#block-code)
+   3. [Blok kodu](#code-block)
 4. [Składnia rozszerzona](#extended-syntax):
    1. [Tabele](#tables)
    2. [Definicja](#definition)
@@ -111,12 +112,12 @@ Sprawdzimy następującą składnię Markdown:
 
 ---
 
-Pozwoli to sprawdzić, które elementy składni Markdown są – lub **nie są** – odczytywane przez trzy programy CAT:
-- _Wordfast Pro_
+Pozwoli to sprawdzić, które elementy składni Markdown są — lub **nie są** — odczytywane przez trzy programy CAT:
+- _Wordfast Pro 8_
 - _Trados Studio 2022_
 - _memoQ 10_
 
-## Składnia podstawowa
+## składnia-podstawowa
 Rozdział ten dotyczy podstawowej składni Markdown.
 
 ### Nagłówek
@@ -218,10 +219,8 @@ Odniesienie do [pliku Markdown w __repozytorium__ znajduje się _tutaj_](README.
 2. Odniesienie do wyświetlanego pliku graficznego w repozytorium znajduje się tutaj:
    
    ![Rekin](Images/IMG_20200401_210429.jpg)
-3. Odniesienie do wyświetlanego pliku graficznego w repozytorium z wyświetlanym tekstem podpisu znajduje się tutaj:
-   
-   ![Rekin](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")
-4. Odniesienie do wyświetlanego pliku graficznego znajdującego się w internecie:
+
+3. Odniesienie do wyświetlanego pliku graficznego znajdującego się w internecie:
    
    ![Cieszyn](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg/310px-2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg "Cieszyn")
 
@@ -233,9 +232,22 @@ Odniesienie do zagnieżdżonego materiału wideo Davida Bowie w serwisie YouTube
 
 [![I am a DJ](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk).
 
+### Odnośniki z tekstem podpisu
+
+Poniżej znajduje się kilka przykładów odnośników z tekstem podpisu.
+
+1. Odniesienie do rozdziału [**Pogrubienie** z tekstem podpisu znajduje się tutaj](#bold "Bolder").
+2. Odniesienie do wyświetlanego pliku graficznego w repozytorium z wyświetlanym tekstem podpisu znajduje się tutaj:
+
+![Rekin](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")
+3. Odniesienie do [mojej strony Translatorion.com znajduje się tutaj](https://translatorion.com/ "I didn't choose translator's life, translator's life chose me").
+
 ### Składnia dotycząca odniesień
 
-Przykład składni: `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
+Składnia dotycząca odniesień — przykłady:
+1. `[**Bold** is here](#bold)`
+2. `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
+3. `[![I am a DJ](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk "I am what I play")`
 
 ## Cytowanie
 
@@ -244,15 +256,23 @@ Rozdział ten przedstawia różne sposoby cytowania tekstu lub kodu.
 ### Cytat blokowy
 
 > Oto przykład cytatu.
+>
+> > Ten cytat znajduje się [wewnątrz cytatu](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Inception before it was cool").
+> > >![wewnątrz cytatu](./Images/deeper.jpg "Deep")
 > 
 > Ten cytat ~~nie~~ *również* obejmuj*e* __podstawową składnię__ i [*odniesienie*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
-
-
+> 
+> — *Konfuzjusz*
 Składnia:
 ```
 > This is an example of a quote.
+>
+> > This quote is [inside a quote](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Inception before it was cool").
+> > >![inside a quote](./Images/deeper.jpg "Deep")
 > 
 > This quote ~~doesn't~~ *also* include*s* __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
+> 
+> — *Confusius*
 ```
 
 ### Wiersz kodu
@@ -390,7 +410,7 @@ Składnia: `This is another footnote. [^bignote]`
 
 [^1]: Informacje dodatkowe
 
-[^bignote]: Informacje dodatkowe
+[^bignote]: Jeszcze więcej informacji dodatkowych
 
 ### Ignorowanie formatowania Markdown
 
@@ -445,11 +465,11 @@ Składnia: `<p>Lorem ipsum</p>`
 ## Kod
 
 To jest przykładowy kod:
-- <code>**pogrubienie** _kursywa_</code>
+- <code><p>Kod dostępu: odrzucony</p></code>
 - <code>**pogrubienie** _kursywa_</code>
 
 Składnia:
-- `<code>\*\*bold** \_italic_</code>`
+- `<code>\<p>Access code: Denied\</p></code>`
 - `<code>**bold** _italic_</code>`
 
 ==**Ważne**==: składnia Markdown **nie jest** ignorowana w elementach typu **span**, takich jak tag `<code></code>` HTML.
