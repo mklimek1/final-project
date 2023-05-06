@@ -27,11 +27,12 @@ How Markdown is Processed by Wordfast Pro 8, Trados Studio 2022, and memoQ 10<!-
     - [Links to Images](#links-to-images)
     - [Links to Websites](#links-to-websites)
     - [Links to YouTube](#links-to-youtube)
+    - [Links with Hover Text](#links-with-hover-text)
     - [Syntax for Links](#syntax-for-links)
   - [Quotations](#quotations)
-    - [Block Quote](#block-quote)
+    - [Blockquote](#blockquote)
     - [Inline Code](#inline-code)
-    - [Block Code](#block-code)
+    - [Code Block](#code-block)
   - [Extended Syntax](#extended-syntax)
     - [Tables](#tables)
     - [Task List](#task-list)
@@ -94,9 +95,9 @@ I'll check the following Markdown syntax:
    4. [Links to websites](#links-to-websites)
    5. [Links to YouTube](#links-to-youtube)
 3. [Quotations](#quotations):
-   1. [Block quote](#blockquote)
+   1. [Blockquote](#blockquote)
    2. [Inline code](#inline-code)
-   3. [Block code](#block-code)
+   3. [Code block](#code-block)
 4. [Extended syntax](#extended-syntax):
    1. [Tables](#tables)
    2. [Definition](#definition)
@@ -218,10 +219,8 @@ The link to [a Markdown file in the __repository__ is _here_](README.md).
 2. The link to a displayed image in the repository is here:
    
    ![Shark](Images/IMG_20200401_210429.jpg)
-3. The link to a displayed image in the repository with a hover text is here:
-   
-   ![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")
-4. The link to a displayed image from the internet:
+
+3. The link to a displayed image from the internet:
    
    ![Cieszyn](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg/310px-2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg "Cieszyn")
 
@@ -233,26 +232,49 @@ The link to an embedded David Bowie video on YouTube is here:
 
 [![I am a DJ](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk "I am what I play").
 
+### Links with Hover Text
+
+Find a few examples of links with hover text below.
+
+1. The link to section on [**Bold** with a hover text is here](#bold "Bolder").
+2. The link to a displayed image in the repository with a hover text is here:
+
+![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")
+3. The link to [my website Translatorion.com is here](https://translatorion.com/ "I didn't choose translator's life, translator's life chose me").
+
 ### Syntax for Links
 
-Syntax example: `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
+Syntax for links examples:
+1. `[**Bold** is here](#bold)`
+2. `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
+3. `[![I am a DJ](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk "I am what I play")`
 
 ## Quotations
 
 This section contains various ways of quoting text or code.
 
-### Block Quote
+### Blockquote
 
 > This is an example of a quote.
+>
+> > This quote is [inside a quote](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Inception before it was cool").
+> > >![inside a quote](./Images/deeper.jpg "Deep")
 > 
 > This quote ~~doesn't~~ *also* include*s* __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
+> 
+> — *Confusious*
 
 
 Syntax:
 ```
 > This is an example of a quote.
+>
+> > This quote is [inside a quote](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Inception before it was cool").
+> > >![inside a quote](./Images/deeper.jpg "Deep")
 > 
 > This quote ~~doesn't~~ *also* include*s* __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
+> 
+> — *Confusious*
 ```
 
 ### Inline Code
@@ -264,9 +286,9 @@ Syntax:
 `**bold** and _italic_`
 ```
 
-### Block Code
+### Code Block
 
-This is an example of block code with Markdown syntax:
+This is an example of code block with Markdown syntax:
 ```
 1. __Bold__
 2. *Italic*
@@ -277,7 +299,7 @@ This is an example of block code with Markdown syntax:
 ```
 <!-- TUTAJ DODAĆ JESZCZE CYTAT Z JS-->
 
-This is an example of block code with JavaScript syntax:
+This is an example of code block with JavaScript syntax:
 
 ```js
 // This is the code I found somewhere and adapted to another project.
@@ -540,7 +562,7 @@ Syntax:
 ```
 *This* is __a combination__ of <mark>various</mark> <kbd>key</kbd> <sup>components</sup> of [Markdown](https://en.wikipedia.org/wiki/Markdown) and <em>HTML</em> <code>tags</code>.
 ```
-## Pure HTML syntax with JavaScript
+## Pure HTML Syntax with JavaScript
 
 <html>
    <head>
