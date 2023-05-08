@@ -1,11 +1,11 @@
 Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro, Trados Studio 2022 i memoQ 10<!-- omit in toc -->
 ===
 
-<!-- This here is a comment. And I'd like to create a TOC below -->
-<!-- Use this: https://www.markdownguide.org/cheat-sheet/ -->
-<!-- Things I need to insert:
-- HTML tags, like <code></code>
-- (funny thing that markdown kinda works here)
+<!-- Oto komentarz. I chciałbym stworzyć spis treści poniżej -->
+<!-- Użyj tego: https://www.markdownguide.org/cheat-sheet/ -->
+<!-- Rzeczy, które muszę wprowadzić:
+- znaczniki HTML, np. <code></code>
+- (zabawne, że Markdown tutaj działa w jakimś stopniu)
 -  -->
 - Wprowadzenie
   - [Czym jest CAT?](#what-is-a-cat)
@@ -132,7 +132,9 @@ W tekście użyto trzech rodzajów nagłówków.
 Składnia:
 
 ```
-# Nagł&oacute;wek 1 ## Nagł&oacute;wek 2 ### Nagł&oacute;wek 3
+# Nagłówek 1
+## Nagłówek 2
+### Nagłówek 3
 ```
 
 ### Pogrubienie
@@ -174,7 +176,11 @@ Oto przykład listy uporządkowanej:
 Składnia:
 
 ```
-1. Pozycja 1 2. Pozycja 2 3. Pozycja 3 1. Podpozycja 3.1 2. Podpozycja 3.2
+1. Pozycja 1
+2. Pozycja 2
+3. Pozycja 3
+   1. Podpozycja 3.1
+   2. Podpozycja 3.2
 ```
 
 ### Lista nieuporządkowana
@@ -190,7 +196,11 @@ Oto przykład listy nieuporządkowanej:
 Składnia:
 
 ```
-- Pozycja 1 - Pozycja 2 - Pozycja 3 - Podpozycja 3 - Podpozycja 3
+- Pozycja 1
+- Pozycja 2
+- Pozycja 3
+  - Podpozycja 3
+  - Podpozycja 3
 ```
 
 ### Połączenie składni podstawowej
@@ -204,7 +214,11 @@ Składnia:
 Składnia:
 
 ```
-1. *Punkt z **bardzo ważnym** tekstem* - to jest **po prostu ~~*błędne*~~** - to jest r&oacute;wnież __bardzo _ważne___ 2. Kolejne _**połączenie** __pogrubienia__ i _kursywy_ 1. ~~to jest *__pogrubione__, ale szalone*, więc to wykreśliłem~~
+1. *Punkt z **bardzo ważnym** tekstem*
+   - To jest **po prostu ~~*błędne*~~**
+   - to jest również __bardzo _ważne___
+2. Kolejne _**połączenie** __pogrubienia__ i _kursywy_
+   1. ~~to jest *__pogrubione__, ale szalone*, więc to wykreśliłem~~
 ```
 
 ## Odniesienia
@@ -223,7 +237,7 @@ Odniesienie do [pliku Markdown w __repozytorium__ znajduje się _tutaj_](../READ
 
 1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](../Images/IMG_20200401_210429.jpg).
 
-2. Odniesienie do wyświetlanego pliku graficznego w repozytorium znajduje się tutaj:
+2. Odniesienie do wyświetlanego pliku graficznego w repozytorium znajduje się tutaj: ![test](../Images/IMG_20200401_210429.jpg)
    
    ![Rekin](../Images/IMG_20200401_210429.jpg)
 
@@ -277,7 +291,14 @@ Rozdział ten przedstawia różne sposoby cytowania tekstu lub kodu.
 Składnia:
 
 ```
-&gt; Oto przykład cytatu. &gt; &gt; &gt; Ten cytat znajduje się [wewnątrz cytatu](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream &quot;Incepcja zanim stała się spoko). &gt; &gt; &gt; ![wewnątrz cytatu](./Images/deeper.jpg &quot;Głębokie&quot;) &gt; &gt; Ten cytat ~~nie~~ *r&oacute;wnież* obejmuj*e* __podstawową składnię__ i [*odniesienie*](https://en.wikipedia.org/wiki/Link,_West_Virginia). &gt; &gt; &mdash; *Konfuzjusz*
+> Oto przykład cytatu.
+>
+> > Ten cytat znajduje się [wewnątrz cytatu](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Incepcja zanim stała się spoko).
+> > >![wewnątrz cytatu](./Images/deeper.jpg "Głębokie")
+> 
+> Ten cytat ~~nie~~ *również* obejmuj*e* __podstawową składnię__ i [*odniesienie*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
+> 
+> — *Konfuzjusz*
 ```
 
 ### Wiersz kodu
@@ -295,11 +316,52 @@ Składnia:
 Oto przykład bloku kodu ze składnią Markdown:
 
 ```
-1. __Pogrubienie__ 2. *Kursywa* 1. ~~Przekreślenie~~ 3. &gt; Cytowanie: &gt; - lista nieuporządkowana 4. Odniesienie [do bardzo mądrej osoby](https://en.wikipedia.org/wiki/Arthur_Schopenhauer)
+1. __Pogrubienie__
+2. *Kursywa*
+   1. ~~Przekreślenie~~
+3. > Cytowanie:
+   > - lista nieuporządkowana
+4. Odniesienie [do bardzo mądrej osoby](https://en.wikipedia.org/wiki/Arthur_Schopenhauer)
 ```
 
 <!-- TUTAJ DODAĆ JESZCZE CYTAT Z JS-->
 Oto przykład bloku kodu ze składnią JavaScript:
+
+```js
+// Jest to kod, który gdzieś znalazłem i przystosowałem w innym projekcie.
+var interval;
+
+function countdown() {
+  clearInterval(interval);
+  interval = setInterval( function() {
+      var timer = $('.js-timeout').html();
+      timer = timer.split(':');
+      var minutes = timer[0];
+      var seconds = timer[1];
+      seconds -= 1;
+      if (minutes < 0) return;
+      else if (seconds < 0 && minutes != 0) {
+          minutes -= 0;
+          seconds = 40;
+      }
+      else if (seconds < 10 && length.seconds != 2) seconds = '0' + seconds;
+
+      $('.js-timeout').html(minutes + ':' + seconds);
+
+      if (minutes == 0 && seconds == 0) clearInterval(interval);
+  }, 1000);
+}
+
+$('#js-startTimer').click(function () {
+  $('.js-timeout').text("00:40");
+  countdown();
+});
+
+$('#js-resetTimer').click(function () {
+  $('.js-timeout').text("00:40");
+  clearInterval(interval);
+});
+```
 
 Składnia (fragment): ```` ```js // This is the code I found somewhere and adapted to another project. var interval;``` ````
 
@@ -319,7 +381,9 @@ Rozdział ten dotyczy rozszerzonej składni Markdown.
 Składnia (fragment):
 
 ```
-| Lp. | Imię | Nazwisko | Zdjęcie | Wiek | | :--- | :---: | :---: | --- | ---: | | 1. | [**Jan _bez Trwogi_**](https://en.wikipedia.org/wiki/John_the_Fearless) | [__Walezjusz__](https://en.wikipedia.org/wiki/House_of_Valois) | ![Jan bez Trwogi](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg/173px-Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg &quot;Jan bez Trwogi&quot;)| 48 |
+| Lp. | Imię | Nazwisko | Zdjęcie | Wiek |
+| :--- | :---: | :---: | --- | ---: |
+| 1. | [**Jan _bez Trwogi_**](https://en.wikipedia.org/wiki/John_the_Fearless) | [__Walezjusz__](https://en.wikipedia.org/wiki/House_of_Valois) | ![Jan bez Trwogi](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg/173px-Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg "Jan bez Trwogi")|   48 |
 ```
 
 ### Lista zadań
@@ -394,7 +458,7 @@ Składnia: \\\*\\\*pogrubienie**
 
 Poniżej tego zdania znajduje się komentarz pomijany przez procesory Markdown:
 
-<!--- Comment --->
+<!--- Komentarz --->
 Składnia: `<!--- Comment --->`.
 
 ## Podsumowanie
@@ -426,7 +490,7 @@ Poniżej zostają sprawdzone znaczniki HTML i inne:
 
 ## Akapit
 
-<p>**This is *lorem ipsum***: lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper ante sit amet aliquet convallis. Integer mollis urna quis velit mattis facilisis.</p>
+<p> **Oto *lorem ipsum***: lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper ante sit amet aliquet convallis. Integer mollis urna quis velit mattis facilisis.</p>
 <p>Vestibulum pulvinar sed eros vitae eleifend. Mauris et ligula metus. Nunc elementum vestibulum arcu quis ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 Składnia: `<p>Lorem ipsum</p>`.
 
@@ -450,7 +514,7 @@ Składnia:
 
 Oto zwykła sekcja.
 
-<details><summary>Unroll another section</summary>
+<details><summary>Rozwiń kolejną sekcję</summary>
 <p>
 *Tekst* z __różnym__ ~~formatowaniem~~.
 
@@ -467,7 +531,11 @@ Składnia (fragment):
 
 ```
 <details><summary>Rozwiń kolejną sekcję</summary>
-<p>*Tekst* z __r&oacute;żnym__ ~~formatowaniem~~.</p>
+<p>
+
+*Tekst* z __różnym__ ~~formatowaniem~~.
+
+</p>
 </details>
 ```
 
@@ -484,17 +552,19 @@ Składnia: `<kbd>Windows</kbd>`.
 Oto przykładowa definicja.
 
 <dl>
-"Definition":
-<dt> a statement that explains the meaning of a word or phrase </dt>
-<dt> a description of the features and limits of something </dt>
+„Definicja”:
+<dt> twierdzenie, które objaśnia znaczenie słowa lub wyrażenia </dt>
+<dt> opis cech i ograniczeń czegoś </dt>
 </dl>
 Tłumaczenie za [Cambridge Dictionary](https://dictionary.cambridge.org/pl/dictionary/english/definition).
 
 Składnia:
 
 ```
-<dl>&bdquo;Definicja&rdquo;:<dt>twierdzenie, kt&oacute;re objaśnia znaczenie słowa lub wyrażenia</dt>
-<dt>opis cech i ograniczeń czegoś</dt>
+<dl>
+„Definicja”:
+<dt> twierdzenie, które objaśnia znaczenie słowa lub wyrażenia </dt>
+<dt> opis cech i ograniczeń czegoś </dt>
 </dl>
 ```
 
@@ -523,7 +593,7 @@ Składnia: `<sup>text</sup>`.
 Składnia:
 
 ```
-*Oto* __połączenie__<mark>r&oacute;żnych</mark><kbd>kluczowych</kbd> <sup>element&oacute;w</sup> składni [Markdown](https://en.wikipedia.org/wiki/Markdown) i <em>HTML</em> <code>tags</code>.
+*Oto* __połączenie__ <mark>różnych</mark> <kbd>kluczowych</kbd> <sup>elementów</sup> składni [Markdown](https://en.wikipedia.org/wiki/Markdown) i <code>znaczników</code> <em>HTML</em>.
 ```
 
 ## Czysta składnia HTML z JavaScript
@@ -548,24 +618,24 @@ Składnia:
     <body>
       <div class="jotaro">
          <p class="wikkeda">
-            This is an <kbd>HTML</kbd> text with added <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">styles</a>.
+            Oto przykład tekstu <kbd>HTML</kbd> z dodanymi <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">stylami</a>.
          </p>
          <p>
-            This is just a plain <em>HTML</em> text within <code>div</code> style.
+            Oto przykład zwykłego tekstu <em>HTML</em> wewnątrz stylu typu <code>div</code>.
          </p>
       </div>
       <div>
          <p>
-            This is just a plain <em>HTML</em> text without any style.
+            Oto przykład zwykłego tekstu <em>HTML</em> bez żadnego stylu.
          </p>
          <p>
-            This is a JavaScript sample that counts down from 40 seconds to 0.
+            Oto przykład skryptu JavaScript, który odlicza z 40 sekund do 0.
          </p>
          <p>   
-            Countdown: <span class="js-timeout">00:40</span>.
+            Odliczaj: <span class="js-timeout">00:40</span>.
          </p>
-            <button id="js-startTimer">Start Countdown</button>
-            <button id="js-resetTimer">Stop &amp; Reset</button>
+            <button id="js-startTimer">Rozpocznij odliczanie</button>
+            <button id="js-resetTimer">Zatrzymaj &amp; i zresetuj</button>
             <script src="./timer.js"></script>
       </div>
     </body>
@@ -576,20 +646,41 @@ Składnia:
 <html>
    <head>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <style>.jotaro { background-color: #4f8866; padding: 30px; border: 5px solid #385A6B; } .wikkeda { font-size: 150%; font-family: 'Courier New', Courier, monospace; color: #385A6B; font-style: italic; }</style>
-   <META http-equiv="content-type" content="text/html; charset=utf-8">
-</head>
+      <style>
+         .jotaro {
+            background-color: #4f8866;
+            padding: 30px;
+            border: 5px solid #385A6B;
+         }
+        .wikkeda {
+            font-size: 150%;
+            font-family: 'Courier New', Courier, monospace;
+            color: #385A6B;
+            font-style: italic;
+        }
+    </style>
+   </head>
     <body>
       <div class="jotaro">
-         <p class="wikkeda">Oto <kbd>HTML</kbd> przykład z dodanymi <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">stylami</a>.</p>
-         <p>Oto przykład zwykłego tekstu <em>HTML</em> wewnątrz stylu typu<code>div</code>.</p>
+         <p class="wikkeda">
+            Oto przykład tekstu <kbd>HTML</kbd> z dodanymi <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">stylami</a>.
+         </p>
+         <p>
+            Oto przykład zwykłego tekstu <em>HTML</em> wewnątrz stylu typu <code>div</code>.
+         </p>
       </div>
       <div>
-         <p>Oto przykład zwykłego tekstu <em>HTML</em> bez żadnego stylu.</p>
-         <p>Oto przykład skryptu JavaScript, kt&oacute;ry odlicza z 40 sekund do 0.</p>
-         <p>Odliczaj: <span class="js-timeout">00:40</span>.</p>
+         <p>
+            Oto przykład zwykłego tekstu <em>HTML</em> bez żadnego stylu.
+         </p>
+         <p>
+            Oto przykład skryptu JavaScript, który odlicza z 40 sekund do 0.
+         </p>
+         <p>   
+            Odliczaj: <span class="js-timeout">00:40</span>.
+         </p>
             <button id="js-startTimer">Rozpocznij odliczanie</button>
-            <button id="js-resetTimer">Zatrzymaj i zresetuj</button>
+            <button id="js-resetTimer">Zatrzymaj &amp; i zresetuj</button>
             <script src="./timer.js"></script>
       </div>
     </body>
