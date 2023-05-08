@@ -212,13 +212,13 @@ Here we'll see how different types of links are interpreted by *Wordfast Pro*, *
 The link to section on [**Bold** is here](#bold).
 
 ### Links to Files
-The link to [a Markdown file in the __repository__ is _here_](../final-project/README.md).
+The link to [a Markdown file in the __repository__ is _here_](README.md).
 
 ### Links to Images
 1. The link to [an image in the **repository** is *here*](Images/IMG_20200401_210429.jpg).
 2. The link to a displayed image in the repository is here:
    
-   ![Shark](../final-project/Images/IMG_20200401_210429.jpg)
+   ![Shark](./Images/IMG_20200401_210429.jpg)
 
 3. The link to a displayed image from the internet:
    
