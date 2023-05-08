@@ -490,7 +490,7 @@ Poniżej zostają sprawdzone znaczniki HTML i inne:
 
 ## Akapit
 
-<p>**This is *lorem ipsum***: lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper ante sit amet aliquet convallis. Integer mollis urna quis velit mattis facilisis.</p>
+<p>**Oto *lorem ipsum***: lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper ante sit amet aliquet convallis. Integer mollis urna quis velit mattis facilisis.</p>
 <p>Vestibulum pulvinar sed eros vitae eleifend. Mauris et ligula metus. Nunc elementum vestibulum arcu quis ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 Składnia: `<p>Lorem ipsum</p>`.
 
@@ -514,7 +514,7 @@ Składnia:
 
 Oto zwykła sekcja.
 
-<details><summary>Unroll another section</summary>
+<details><summary>Rozwiń kolejną sekcję</summary>
 <p>
 *Tekst* z __różnym__ ~~formatowaniem~~.
 
@@ -551,10 +551,8 @@ Składnia: `<kbd>Windows</kbd>`.
 
 Oto przykładowa definicja.
 
-<dl>
-"Definition":
-<dt> a statement that explains the meaning of a word or phrase </dt>
-<dt> a description of the features and limits of something </dt>
+<dl>&bdquo;Definicja&rdquo;:<dt>twierdzenie, kt&oacute;re objaśnia znaczenie słowa lub wyrażenia</dt>
+<dt>opis cech i ograniczeń czegoś</dt>
 </dl>
 Tłumaczenie za [Cambridge Dictionary](https://dictionary.cambridge.org/pl/dictionary/english/definition).
 
@@ -601,41 +599,20 @@ Składnia:
 <html>
    <head>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <style>
-         .jotaro {
-            background-color: #4f8866;
-            padding: 30px;
-            border: 5px solid #385A6B;
-         }
-        .wikkeda {
-            font-size: 150%;
-            font-family: 'Courier New', Courier, monospace;
-            color: #385A6B;
-            font-style: italic;
-        }
-    </style>
-   </head>
+      <style>.jotaro { background-color: #4f8866; padding: 30px; border: 5px solid #385A6B; } .wikkeda { font-size: 150%; font-family: 'Courier New', Courier, monospace; color: #385A6B; font-style: italic; }</style>
+   <META http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
     <body>
       <div class="jotaro">
-         <p class="wikkeda">
-            This is an <kbd>HTML</kbd> text with added <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">styles</a>.
-         </p>
-         <p>
-            This is just a plain <em>HTML</em> text within <code>div</code> style.
-         </p>
+         <p class="wikkeda">Oto <kbd>HTML</kbd> przykład z dodanymi <a href="https://www.youtube.com/watch?v=F-z6u5hFgPk">stylami</a>.</p>
+         <p>Oto przykład zwykłego tekstu <em>HTML</em> wewnątrz stylu typu<code>div</code>.</p>
       </div>
       <div>
-         <p>
-            This is just a plain <em>HTML</em> text without any style.
-         </p>
-         <p>
-            This is a JavaScript sample that counts down from 40 seconds to 0.
-         </p>
-         <p>   
-            Countdown: <span class="js-timeout">00:40</span>.
-         </p>
-            <button id="js-startTimer">Start Countdown</button>
-            <button id="js-resetTimer">Stop &amp; Reset</button>
+         <p>Oto przykład zwykłego tekstu <em>HTML</em> bez żadnego stylu.</p>
+         <p>Oto przykład skryptu JavaScript, kt&oacute;ry odlicza z 40 sekund do 0.</p>
+         <p>Odliczaj: <span class="js-timeout">00:40</span>.</p>
+            <button id="js-startTimer">Rozpocznij odliczanie</button>
+            <button id="js-resetTimer">Zatrzymaj i zresetuj</button>
             <script src="./timer.js"></script>
       </div>
     </body>

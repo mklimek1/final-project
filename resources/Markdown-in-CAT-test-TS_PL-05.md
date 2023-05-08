@@ -7,7 +7,7 @@ Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro, Trados Studio
 - znaczniki HTML, np. <code></code>
 - (zabawne, że Markdown tutaj działa w jakimś stopniu)
 -  -->
-- Wprowadzenie
+- [Wprowadzenie](#introduction)
   - [Czym jest CAT?](#what-is-a-cat)
   - [Dlaczego jest to ważne?](#why-is-this-important)
 - [Składnia Markdown](#markdown-syntax)
