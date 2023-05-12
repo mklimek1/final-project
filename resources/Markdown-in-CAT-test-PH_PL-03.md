@@ -268,7 +268,7 @@ Składnia:
 ```
 > Oto przykład cytatu.
 >
-> > Ten cytat znajduje się [wewnątrz cytatu](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Incepcja zanim stała się spoko).
+> > Ten cytat znajduje się [wewnątrz cytatu](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Incepcja zanim stała się spoko").
 > > >![wewnątrz cytatu](./Images/deeper.jpg "Głębokie")
 > 
 > Ten cytat ~~nie~~ *również* obejmuj*e* __podstawową składnię__ i [*odniesienie*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
