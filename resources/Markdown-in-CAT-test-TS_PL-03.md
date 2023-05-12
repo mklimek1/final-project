@@ -1,4 +1,4 @@
-Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro, Trados Studio 2022 i memoQ 10<!-- omit in toc -->
+Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro, Trados Studio 2022 i Phrase<!-- omit in toc -->
 ===
 
 <!-- This here is a comment. And I'd like to create a TOC below -->
@@ -61,13 +61,13 @@ Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro, Trados Studio
 
 # Wprowadzenie
 
-Plik ten powstał do sprawdzenia, jak trzy programy wspomagające tłumaczenie (ang. \*Computer-Aided Translation\*; CAT) — Wordfast Pro, Trados Studio 2022 i memoQ 10 — odczytują pliki w formacie Markdown.
+Plik ten powstał do sprawdzenia, jak trzy programy wspomagające tłumaczenie (ang. \*Computer-Aided Translation\*; CAT) — Wordfast Pro, Trados Studio 2022 i Phrase — odczytują pliki w formacie Markdown.
 
 ## Czym jest CAT?
 
 Oprogramowanie wspomagające tłumaczenie (ang. [Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation), zwane powszechnie jako CAT) to program, który pomaga tłumaczom tłumaczyć różnego rodzaju pliki, w tym pliki w formacie Markdown – *.md.
 
-Istnieje **wiele** różnych programów typu CAT. Trzy z nich to *Wordfast Pro*, *Trados Studio* i *memoQ*.
+Istnieje **wiele** różnych programów typu CAT. Trzy z nich to *Wordfast Pro*, *Trados Studio* i *Phrase*.
 
 ## Dlaczego jest to ważne?
 
@@ -119,7 +119,7 @@ Pozwoli to sprawdzić, które elementy składni Markdown są — lub **nie są**
 
 - _Wordfast Pro 8_
 - _Trados Studio 2022_
-- _memoQ 10_
+- _Phrase_
 
 ## Składnia podstawowa
 
@@ -223,7 +223,7 @@ Składnia:
 
 ## Odniesienia
 
-Tutaj sprawdzimy, jak różnego rodzaju odniesienia są interpretowane przez *Wordfast Pro*, *Trados Studio 2022* i _memoQ 10_.
+Tutaj sprawdzimy, jak różnego rodzaju odniesienia są interpretowane przez *Wordfast Pro*, *Trados Studio 2022* i _Phrase_.
 
 ### Odniesienia do rozdziałów z nagłówkami
 
@@ -693,7 +693,7 @@ Oto podsumowanie połączenia znaczników `HTML` wewnątrz pliku `*.md`.
 
 # Wnioski
 
-Mam nadzieję, że ta rozległa – ale na pewno nie wyczerpująca – lista znaczników Markdown i HTML będzie stanowić dobrą próbę dla programów *Wordfast Pro*, *Trados Studio 2022* i *memoQ 10*.
+Mam nadzieję, że ta rozległa – ale na pewno nie wyczerpująca – lista znaczników Markdown i HTML będzie stanowić dobrą próbę dla programów *Wordfast Pro*, *Trados Studio 2022* i *Phrase*.
 
 Napisałem ten plik Markdown w Visual Studio Code, który nie wyświetla poniższych elementów w oknie podglądu:
 

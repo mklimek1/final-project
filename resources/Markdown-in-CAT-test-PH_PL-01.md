@@ -1,4 +1,4 @@
-Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro 8, Trados Studio 2022 i memoQ 10<!-- omit in toc -->
+Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro 8, Trados Studio 2022 i Phrase<!-- omit in toc -->
 ===
 
 <!-- This here is a comment. And I'd like to create a TOC below -->
@@ -62,12 +62,12 @@ Jak pliki w formacie Markdown są przetwarzane przez Wordfast Pro 8, Trados Stud
 
 # Wprowadzenie
 
-Plik ten powstał do sprawdzenia, jak trzy programy wspomagające tłumaczenie (ang. \*Computer-Aided Translation\*; CAT) — Wordfast Pro 8, Trados Studio 2022 i memoQ 10 — odczytują pliki w formacie Markdown.
+Plik ten powstał do sprawdzenia, jak trzy programy wspomagające tłumaczenie (ang. \*Computer-Aided Translation\*; CAT) — Wordfast Pro 8, Trados Studio 2022 i Phrase — odczytują pliki w formacie Markdown.
 
 ## Czym jest CAT?
 Oprogramowanie wspomagające tłumaczenie (ang. [Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation), zwane powszechnie jako CAT) to program, który pomaga tłumaczom tłumaczyć różnego rodzaju pliki, w tym pliki w formacie Markdown – \*.md.
 
-Istnieje **wiele** różnych programów typu CAT. Trzy z nich to *Wordfast Pro*, *Trados Studio* i *memoQ*.
+Istnieje **wiele** różnych programów typu CAT. Trzy z nich to *Wordfast Pro*, *Trados Studio* i *Phrase*.
 ## Dlaczego jest to ważne?
 Pliki Markdown mają nietypowy rodzaj formatowania. Składnia dla __pogrubienia__ może wyglądać na przykład tak: `__pogrubienie__`  
 Powstaje pytanie: Czy program CAT będzie wiedzieć, który symbol jest elementem składnik Markdown, a który został użyty jako część tekstu?
@@ -84,7 +84,7 @@ Sprawdzimy następującą składnię Markdown: 1\. [Składnia podstawowa](#basic
 
 ---
 
-Pozwoli to sprawdzić, które elementy składni Markdown są — lub **nie są** — odczytywane przez trzy programy CAT: - _Wordfast Pro 8_ - _Trados Studio 2022_ - _memoQ 10_
+Pozwoli to sprawdzić, które elementy składni Markdown są — lub **nie są** — odczytywane przez trzy programy CAT: - _Wordfast Pro 8_ - _Trados Studio 2022_ - _Phrase_
 
 ## Składnia podstawowa
 Rozdział ten dotyczy podstawowej składni Markdown.
@@ -139,7 +139,7 @@ Składnia: ```- Pozycja 1 - Pozycja 2 - Pozycja 3 - Podpozycja 3 - Podpozycja 3`
 Składnia: ``` 1. *Punkt z **bardzo ważnym** tekstem* - to jest **po prostu ~~*błędne*~~** - to jest również __bardzo _ważne___ 2. Kolejne \_*\*połączenie** \_\_pogrubienia\__ i \_kursywy_ 1\. ~~to jest \*__pogrubione__, ale szalone\*, więc to wykreśliłem~~ ```
   
 ## Odniesienia
-Tutaj sprawdzimy, jak różnego rodzaju odniesienia są interpretowane przez *Wordfast Pro*, *Trados Studio 2022* i _memoQ 10_.
+Tutaj sprawdzimy, jak różnego rodzaju odniesienia są interpretowane przez *Wordfast Pro*, *Trados Studio 2022* i _Phrase_.
 
 ### Odniesienia do rozdziałów z nagłówkami
 Odniesienie do rozdziału [**Pogrubienie** znajduje się tutaj](#bold).
@@ -499,7 +499,7 @@ Oto podsumowanie połączenia znaczników `HTML` wewnątrz plik `*.md`.
 
 # Wnioski
 
-Mam nadzieję, że ta rozległa – ale na pewno nie wyczerpująca – lista znaczników Markdown i HTML będzie stanowić dobrą próbę dla programów *Wordfast Pro*, *Trados Studio 2022* i *memoQ 10*.
+Mam nadzieję, że ta rozległa – ale na pewno nie wyczerpująca – lista znaczników Markdown i HTML będzie stanowić dobrą próbę dla programów *Wordfast Pro*, *Trados Studio 2022* i *Phrase*.
 
 Napisałem ten plik Markdown w Visual Studio Code, który nie wyświetla poniższych elementów w oknie podglądu: - wyróżnienie - indeks dolny - indeks górny - przypisy - sekcja zwijana - definicja - JavaScript
 

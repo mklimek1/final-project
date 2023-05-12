@@ -1,4 +1,4 @@
-How Markdown is Processed by Wordfast Pro 8, Trados Studio 2022, and memoQ 10<!-- omit in toc -->
+How Markdown is Processed by Wordfast Pro 8, Trados Studio 2022, and Phrase<!-- omit in toc -->
 ===
 
 <!-- This here is a comment. And I'd like to create a TOC below -->
@@ -62,12 +62,12 @@ How Markdown is Processed by Wordfast Pro 8, Trados Studio 2022, and memoQ 10<!-
 
 # Introduction
 
-I wrote this file to test how three Computer-Aided Translation programs — Wordfast Pro 8, Trados Studio 2022, and memoQ 10 — read Markdown files.
+I wrote this file to test how three Computer-Aided Translation programs — Wordfast Pro 8, Trados Studio 2022, and Phrase — read Markdown files.
 
 ## What is a CAT?
 [Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation) software (usually known as CAT) is a program that helps translators translate various files, including Markdown *.md files.
 
-There are **many** diferent CATs. Three of them are *Wordfast Pro*, *Trados Studio*, and *memoQ*.
+There are **many** diferent CATs. Three of them are *Wordfast Pro*, *Trados Studio*, and *Phrase*.
 ## Why is This Important?
 Markdown files have unusual formatting. The syntax for __bold__ can be for example: `__bold__`.  
 The question arises: Will a CAT know which symbol is part of Markdown syntax and which is used as part of the text?
@@ -115,7 +115,7 @@ I'll check the following Markdown syntax:
 This will allow us to see which elements of Markdown syntax are — or **are not** — read by three CATs:
 - _Wordfast Pro 8_
 - _Trados Studio 2022_
-- _memoQ 10_
+- _Phrase_
 
 ## Basic Syntax
 This section contains basic Markdown syntax.
@@ -206,7 +206,7 @@ Syntax:
 ```
   
 ## Links
-Here we'll see how different types of links are interpreted by *Wordfast Pro*, *Trados Studio 2022*, and _memoQ 10_.
+Here we'll see how different types of links are interpreted by *Wordfast Pro*, *Trados Studio 2022*, and _Phrase_.
 
 ### Links to Sections with Headers
 The link to section on [**Bold** is here](#bold).
@@ -659,7 +659,7 @@ This sums up combination of `HTML` tags within an `*.md` file.
 
 # Conclusion
 
-I hope this extensive — but definitely not exhaustive — list of Markdown and HTML tags will be a good test for *Wordfast Pro*, *Trados Studio 2022*, and *memoQ 10*.
+I hope this extensive — but definitely not exhaustive — list of Markdown and HTML tags will be a good test for *Wordfast Pro*, *Trados Studio 2022*, and *Phrase*.
 
 I've written this Markdown file in Visual Studio Code that doesn't show the following elements in the preview window:
  - highlight
