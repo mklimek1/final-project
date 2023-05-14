@@ -59,4 +59,4 @@ Go to section: [*Why is Markdown difficult in translation?*](ref-why-md-difficul
 
 ---
 
-[*Back to top*](#what-is-a-cat)
+[*Back to top*](#what-is-a-cat&#63;)
