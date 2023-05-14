@@ -27,9 +27,19 @@ A text-encoding system in which symbols are used in a text document to change or
 
 ## Phrase
 
+# S
+
+## Segment
+
+Usually a sentence, but it may be also, e.g., an item from a list or a header. A segment has its counterpart in the target language that is filled in with the translation by the translator.
+
 # T
 
 ## Trados
+
+## Translation Memory
+
+A database that stores segments with their translated counterparts.
 
 # W
 

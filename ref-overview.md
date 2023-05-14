@@ -7,8 +7,8 @@ This section covers basic information on Markdown, CAT software, and the difficu
 # Topics
 
 1. [What is Markdown?](ref-markdown.md)
-2. What is a CAT?
-3. Why is Markdown difficult for CATs?
+2. [What is a CAT?](ref-cat.md)
+3. [Why is Markdown difficult for CATs?](ref-why-md-difficult.md)
 
 ---
 

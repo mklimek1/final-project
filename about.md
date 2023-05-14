@@ -15,7 +15,7 @@ Here are some details about the project:
 **Personas**: translators who need to translate an .md file and technical writers who need to send .md files for translation
 **Tools**: [Markdown](https://daringfireball.net/projects/markdown), [Jekyll](https://jekyllrb.com/), [Just the Docs](https://github.com/just-the-docs/just-the-docs)
 **Publishing**: [GitHub Pages](https://pages.github.com/)
-**Software — Primary**: [Wordfast Pro](https://www.wordfast.com/products/wordfast_pro), [Trados Studio](https://www.trados.com/products/trados-studio/whats-new-studio-2022.html), [Phrase](https://phrase.com/)
+**Software — Primary**: [Phrase](https://phrase.com/), [Trados Studio](https://www.trados.com/products/trados-studio/whats-new-studio-2022.html), [Wordfast Pro](https://www.wordfast.com/products/wordfast_pro)
 **Software — Tools**: [Obsidian](https://obsidian.md/), [Visual Studio Code](https://code.visualstudio.com/), [GitHub Desktop](https://desktop.github.com/), [Snip & Sketch](https://en.wikipedia.org/wiki/Snipping_Tool)
 **Supervisor**: [Marta Bartnicka](https://www.linkedin.com/in/marta-bartnicka-713969/)
 **Peer Reviewers**: [Justyna Kula](https://www.linkedin.com/in/justyna-kula-5778a391/), [Monika Klimek](https://www.linkedin.com/in/monika-klimek1/)
