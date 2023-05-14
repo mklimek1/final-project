@@ -11,14 +11,23 @@ Here I'd like to mention [Kacper Bojakowski's](https://github.com/kacperbojakows
 This guide was created as a graduation project as part of [Technical Communication](https://vistula.edu.pl/kierunki-studiow/komunikacja-techniczna) studies at [Vistula University](https://vistula.edu.pl/en) during the academic year 2022/2023.
 
 Here are some details about the project:
-**Title**: How Do CATs Process Markdown Files?
+
+**Title**: How do CATs process Markdown files?
+
 **Personas**: translators who need to translate an .md file and technical writers who need to send .md files for translation
+
 **Tools**: [Markdown](https://daringfireball.net/projects/markdown), [Jekyll](https://jekyllrb.com/), [Just the Docs](https://github.com/just-the-docs/just-the-docs)
+
 **Publishing**: [GitHub Pages](https://pages.github.com/)
+
 **Software — Primary**: [Phrase](https://phrase.com/), [Trados Studio](https://www.trados.com/products/trados-studio/whats-new-studio-2022.html), [Wordfast Pro](https://www.wordfast.com/products/wordfast_pro)
+
 **Software — Tools**: [Obsidian](https://obsidian.md/), [Visual Studio Code](https://code.visualstudio.com/), [GitHub Desktop](https://desktop.github.com/), [Snip & Sketch](https://en.wikipedia.org/wiki/Snipping_Tool)
+
 **Supervisor**: [Marta Bartnicka](https://www.linkedin.com/in/marta-bartnicka-713969/)
+
 **Peer Reviewers**: [Justyna Kula](https://www.linkedin.com/in/justyna-kula-5778a391/), [Monika Klimek](https://www.linkedin.com/in/monika-klimek1/)
+
 
 <!-- ADD MORE STUFF IF TIME ALLOWS AND PERMITS AND IS KIND
 E.g. 
@@ -29,10 +38,11 @@ E.g.
 
 # References
 
-1. [Collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
-2. [Daring Fireball](https://daringfireball.net/projects/markdown/)
-3. [Keyboard glyphs](https://meta.stackexchange.com/questions/5527/keyboard-glyphs)
-4. [Markdownguide.org](https://www.markdownguide.org/)
+1. [Britannica](https://www.britannica.com/technology/markup-language)
+2. [Collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
+3. [Daring Fireball](https://daringfireball.net/projects/markdown/)
+4. [Keyboard glyphs](https://meta.stackexchange.com/questions/5527/keyboard-glyphs)
+5. [Markdownguide.org](https://www.markdownguide.org/)
 
 # Author
 
