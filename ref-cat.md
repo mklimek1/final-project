@@ -1,4 +1,4 @@
-# What is a CAT?
+# What is a CAT
 
 <!-- Briefly:
 - what is a CAT
