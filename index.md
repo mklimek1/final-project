@@ -11,23 +11,23 @@ There are many different CAT programs available. However, they process Markdown 
 
 This study presents how three CAT programs — Phrase, Trados Studio 2022, and Wordfast Pro — process Markdown files with inbuilt settings.
 
-# Aim
+# Aim <!--To jest fragment pasujący bardziej do opisu, o celu jest w akapicie poniżej. Może połączyć go z Introduction, skondensować, są to ciekawe informacje i fajnie jest to napisane, tylko też nie wiem, czy znalazłyby się w instrukcji, ale jakby je napisać w taki sposób, żeby uzasadniały, po co ta instrukcja powstała, to jak najbardziej-->
 
 Successful translation of a Markdown file is like a coin: there are two sides that are inseparable opposites.
 
-On the one side, there is the technical writer who creates the Markdown file.
+On the one side, there is the technical writer who creates the Markdown file. <!--Do ustalenia kwestia "the" i "a" przy tłumaczu i TEW - chodzi o kolejność: najpierw "a", potem "the", chyba, że chodzi o coś innego, a są kilka razy wymienieni-->
 
 On the other side, there is the translator who translates the Markdown file.
 
 Both the technical writer and the translator must be aware of pitfalls and obstacles Markdown files pose in translation with CAT programs.
 
-A technical writer needs to know what a CAT program can do, can do to a certain extent, and cannot do. They can also make translation of Markdown files easier by writing their texts in a specific manner. Lastly, they can meet the translator half way by preparing a brief with dos and dont's.
+A technical writer needs to know what a CAT program can do, can do to a certain extent, and cannot do. They can also make translation of Markdown files easier by writing their texts in a specific manner. Lastly, they can meet the translator halfway by preparing a brief with dos and don'ts.
 
-A translator needs to know general information about Markdown. The translator should be aware what should be translated, what should not be edited, and how to translate phrases in certain contexts. Lastly, the translator can meet the technical writer half way by knowing what characters are used in Markdown and what the general syntax of Markdown is.
+A translator needs to have general information about Markdown. The translator should be aware what should be translated, what should not be edited, and how to translate phrases in certain contexts. Lastly, the translator can meet the technical writer halfway by knowing what characters are used in Markdown and what the general syntax of Markdown is.
 
 This study is like the rim of a coin; it joins both sides so they can create together a unified whole.
 
-# How to use this study
+# How to use this study <!--Poniżej jest mowa o celu instrukcji, co bardziej by pasowało do akapitu powyżej - Cel. Może to przeformułować razem z powyższymi akapitami?-->
 
 This study is aimed at both technical writers and translators. Whether you are the former or the latter, it serves as a point of reference on Markdown for translators and on CAT programs for technical writers.
 
