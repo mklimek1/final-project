@@ -23,7 +23,8 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 3. Jeśli masz jakieś pomysły dotyczące objaśnienia CAT-ów laikom — śmiało komentuj!
 
 **@Paweł: Poprawiłam, wg mnie dobrze się czyta i jest to zrozumiałe, napisane w przystępny sposób, dałam miejscami sugestie od siebie plus komentarze - do rozważenia, nie muszą być uwzględnione ;-)**
-Do rozważenia:
+
+**Do rozważenia:**
 **- W jakim piszesz języku: BrE czy AmE (pisownia np. color)**
 **- Czy stosować skróty typu "it's" czy "wouldn't" czy nie**
 
