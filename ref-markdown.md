@@ -4,7 +4,7 @@
 
 A markup language is a system in which you use characters in a text document to change or control its features. A commonly used markup language is [**HTML**](https://www.britannica.com/technology/HTML), which is the building block of internet websites. In contrast with text processors like Microsoft Word, where you can click the `B` button or use <kbd>CTRL+B</kbd> to use bold, you need to use a set of characters in specific places to make your text bold with HTML. 
 
-Markdown is similar to HTML, but less complex and offers less possibilities. This is not a bad thing, though. Usually, a simple tool is better than a complex one for a simple task. After all, you wouldn't drive a Ferrari to buy groceries, would you?
+Markdown is similar to HTML, but less complex and offers fewer possibilities. This is not a bad thing, though. Usually, a simple tool is better than a complex one for a simple task. After all, you wouldn't drive a Ferrari to buy groceries, would you?
 
 Markdown consists of about a dozen of characters. As a result, it can be quickly learned and successfully used. Moreover, it is faster to use than HTML.
 
