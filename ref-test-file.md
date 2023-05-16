@@ -8,6 +8,14 @@ The test file is a Markdown guidebook. It includes the list of Markdown tags, th
 
 The test file can be found [here](./resources/Markdown-in-CAT-test.md).
 
+In the study, there are two phrases recurring with the following meanings:
+1. `ignored` — this means that a given item is not displayed by the CAT
+2. `rendered normally` — this means that Markdown or HTML tags are displayed with normal characters instead of tags inserted by the CAT
+
+Surprising results are noted as follows: <kbd>&#128680;REALLY!</kbd>
+
+<!-- Jestem otwarty na sugestie inne niż syrena i REALLY :) -->
+
 ---
 
 Next section: [*Phrase — overview and settings*](phrase-01-settings.md)

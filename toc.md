@@ -12,10 +12,10 @@
 	1. Settings
 	2. Results
 	3. Summary and recommendations
-6. Wordfast
-	1. Settings
-	2. Results
-	3. Summary and recommendations
+6. [Wordfast](wordfast-00-overview)
+	1. [Settings](trados-01-settings.md)
+	2. [Results](wordfast-02-results.md)
+	3. [Summary and recommendations](wordfast-03-summary-and-recommendations.md)
 7. Comparison
 8. General recommendations
 9. Conclusion

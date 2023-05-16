@@ -215,10 +215,10 @@ The link to section on [**Bold** is here](#bold).
 The link to [a Markdown file in the __repository__ is _here_](README.md).
 
 ### Links to Images
-1. The link to [an image in the **repository** is *here*](Images/IMG_20200401_210429.jpg).
+1. The link to [an image in the **repository** is *here*](IMG_20200401_210429.jpg).
 2. The link to a displayed image in the repository is here:
    
-   ![Shark](Images/IMG_20200401_210429.jpg)
+   ![Shark](IMG_20200401_210429.jpg)
 
 3. The link to a displayed image from the internet:
    
@@ -239,7 +239,7 @@ Find a few examples of links with hover text below.
 1. The link to section on [**Bold** with a hover text is here](#bold "Bolder").
 2. The link to a displayed image in the repository with a hover text is here:
 
-![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")
+![Shark](IMG_20200401_210429.jpg "A Technical Writer Shark")
 3. The link to [my website Translatorion.com is here](https://translatorion.com/ "I didn't choose translator's life, translator's life chose me").
 
 ### Syntax for Links

@@ -235,11 +235,11 @@ Odniesienie do [pliku Markdown w __repozytorium__ znajduje się _tutaj_](README.
 
 ### Odniesienia do plików graficznych
 
-1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](Images/IMG_20200401_210429.jpg).
+1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](IMG_20200401_210429.jpg).
 
 2. Odniesienie do wyświetlanego pliku graficznego w repozytorium znajduje się tutaj:
    
-   ![Rekin](Images/IMG_20200401_210429.jpg)
+   ![Rekin](IMG_20200401_210429.jpg)
 
 3. Odniesienie do wyświetlanego pliku graficznego znajdującego się w internecie:
    
@@ -262,7 +262,7 @@ Poniżej znajduje się kilka przykładów odnośników z tekstem podpisu.
 1. Odniesienie do rozdziału [**Pogrubienie** z tekstem podpisu znajduje się tutaj](#bold "Jestem tym, co gram").
 2. Odniesienie do wyświetlanego pliku graficznego w repozytorium z wyświetlanym tekstem podpisu znajduje się tutaj:
 
-![Rekin](Images/IMG_20200401_210429.jpg "Rekin dokumentalista") 3. Odniesienie do [mojej strony Translatorion.com znajduje się tutaj](https://translatorion.com/ "Bardziej pogrubione").
+![Rekin](IMG_20200401_210429.jpg "Rekin dokumentalista") 3. Odniesienie do [mojej strony Translatorion.com znajduje się tutaj](https://translatorion.com/ "Bardziej pogrubione").
 
 ### Składnia dotycząca odniesień
 

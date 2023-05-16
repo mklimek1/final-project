@@ -23,7 +23,7 @@ Both the technical writer and the translator must be aware of pitfalls and obsta
 
 A technical writer needs to know what a CAT program can do, can do to a certain extent, and cannot do. They can also make translation of Markdown files easier by writing their texts in a specific manner. Lastly, they can meet the translator half way by preparing a brief with dos and dont's.
 
-A translator needs to know general information about Markdown. The translator should be aware what should be translated, what should not be edited, and how to translate phrases in certain contexts. Lastly, the translator can meet the technical writer half way by knowing what symbols are used in Markdown and what the general syntax of Markdown is.
+A translator needs to know general information about Markdown. The translator should be aware what should be translated, what should not be edited, and how to translate phrases in certain contexts. Lastly, the translator can meet the technical writer half way by knowing what characters are used in Markdown and what the general syntax of Markdown is.
 
 This study is like the rim of a coin; it joins both sides so they can create together a unified whole.
 

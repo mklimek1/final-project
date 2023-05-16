@@ -46,7 +46,7 @@ In this project, Trados Studio 2022 ver. 17.0.4.13209 was used.
 
 [Wordfast](https://www.wordfast.com/products/wordfast_pro) is a CAT that started first as an add-on to Microsoft Word (now called Wordfast Classic). Later, it was developed into a desktop application, called Wordfast Pro.
 
-In this project, Wordfast Pro 8 ver. 8.1.0 was used
+In this project, Wordfast Pro 8 ver. 8.1.0 was used.
 
 [*Skip to section on Markdown in Wordfast Pro 8*](wordfast-01-settings.md)
 

@@ -16,6 +16,12 @@ A program that helps translators translate.
 
 ## HTML
 
+# I
+
+## Ignored
+
+Part of HTML or Markdown syntax that is not displayed in the [CAT](#CAT) editor.
+
 # M
 
 ## Markdown
@@ -31,6 +37,12 @@ A text-encoding system in which symbols are used in a text document to change or
 ## Phrase
 
 Earlier Memsource; a cloud-based translation management system, which also includes a CAT tool. It is completely web-based, meaning it is used via a web browser.
+
+# R
+
+## Rendered normally
+
+Part of HTML or Markdown syntax that is displayed in the [CAT](#CAT) editor as normal characters rather than [tags](#tag).
 
 # S
 

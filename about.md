@@ -43,6 +43,7 @@ E.g.
 3. [Daring Fireball](https://daringfireball.net/projects/markdown/)
 4. [Keyboard glyphs](https://meta.stackexchange.com/questions/5527/keyboard-glyphs)
 5. [Markdownguide.org](https://www.markdownguide.org/)
+6. [Proz.com](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using)
 
 # Author
 
@@ -55,5 +56,7 @@ Useful links and contact:
 - [Translatorion — Website](https://translatorion.com/language/en/translatorion/)
 - [Translatorion — Blog](https://translatorion.com/language/en/blog-en/)
 - Email: pawel@translatorion.com
+
+---
 
 [Back to top](#about)

@@ -2,17 +2,19 @@
 
 **Markdown** is a **markup language** used for formatting plaintext documents. It was created by [John Gruber](https://daringfireball.net/projects/markdown/) in 2004 and it has grown in popularity ever since.
 
-A markup language is a system in which you use symbols in a text document to change or control its features. A commonly used markup language is [**HTML**](https://www.britannica.com/technology/HTML), which is the building block of internet websites. In contrast with text processors like Microsoft Word, where you can click the `B` button or use <kbd>CTRL+B</kbd> to use bold, you need to use a set of symbols in specific places to make your text bold with HTML. 
+A markup language is a system in which you use characters in a text document to change or control its features. A commonly used markup language is [**HTML**](https://www.britannica.com/technology/HTML), which is the building block of internet websites. In contrast with text processors like Microsoft Word, where you can click the `B` button or use <kbd>CTRL+B</kbd> to use bold, you need to use a set of characters in specific places to make your text bold with HTML. 
 
 Markdown is similar to HTML, but less complex and offers less possibilities. This is not a bad thing, though. Usually, a simple tool is better than a complex one for a simple task. After all, you wouldn't drive a Ferrari to buy groceries, would you?
 
-Markdown consists of about a dozen of symbols. As a result, it can be quickly learned and successfully used. Moreover, it is faster to use than HTML.
+Markdown consists of about a dozen of characters. As a result, it can be quickly learned and successfully used. Moreover, it is faster to use than HTML.
 
 For example, to make a text **bold** in Markdown, you need to add two asterisks before and after the text. In HTML, it is more complex:
+
 ```markdown
 Markdown: Hello **bold**!
 HTML: Hello <strong>bold</strong>!
 ```
+
 As you can see, there are four characters used to create bold in Markdown. To achieve the same effect with HTML, you will have to type seventeen!
 
 Markdown's simplicity and frugality have another advantage. Markdown can be easily read even if it is viewed as plaintext, which means the tags are not rendered. As stated by Gruber:
