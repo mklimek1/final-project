@@ -7,19 +7,19 @@
 - what CATs are covered here
 - -->
 
-A **Computer-Aided Translation** software (in short: a **CAT**) is a program that helps translators translate. Translation is still made by a human, but the CAT facilitates this process with inbuilt features.
+A **Computer-Aided Translation** software (in short: a **CAT**) is a program that helps translators translate. Translation is still done by a human, but a CAT facilitates this process with inbuilt features.
 
-The primary feature of a CAT is a text editor. A CAT can open many different source formats, like `.docx`, `HTML`, and Markdown `.md` files. The translated file is imported into the CAT and divided into **segments**. A segment is usually a sentence, but it may be also, e.g., an item from a list or a header. A segment has its counterpart in the target language that is filled in with the translation by the translator.
+The primary feature of a CAT is a text editor. A CAT can open many different source formats, like `.docx`, `HTML`, and Markdown `.md` files. A file to be translated is imported into the CAT and divided into **segments**. A segment is usually a sentence, but it may be also, e.g., an item from a list or a header. A segment has its counterpart in the target language that is filled in with translation by the translator.
 
-The CAT extracts text from the imported files and places it in segments. As a result, the majority of formatting is not displayed, e.g. colour formatting or a website address. Some CATs display bold or italics, but this is not always the case. However, the CAT does not remove such formatting features permanently from the file, as they are required in the translated file. Such formatting is displayed as non-editable **tags**. They are non-editable, because they may also include text that is not to be translated, like a website address.
+The CAT extracts text from the imported files and places it in segments. <!-- Powtórzenie info o segmentach --> As a result, the majority of formatting is not displayed, e.g., colour formatting or a website address. Some CATs display bold or italics, but this is not always the case. However, the CAT does not remove such formatting features permanently from the file, as they are required in the translated file. Such formatting is displayed as non-editable **tags**. They are non-editable, because they may also include text that is not to be translated, like a website address.
 
-Another important feature of a CAT is **translation memory**. A translation memory is a database that stores segments with their translated counterparts. The translated segments may be retrieved in the future if there is another segment that is exactly the same (a 100% match) or if it is similar (a fuzzy match).
+Another important feature of a CAT <!-- Też kwestia "a" i "the" - kolejność --> is **translation memory**. A translation memory is a database that stores segments with their translated counterparts. The translated segments may be retrieved in the future if there is another segment that is exactly the same (a 100% match) or if it is similar (a fuzzy match).
 
-CATs offer many other tools and functionalities, but these are not relevant for this project, so they are not be discussed.
+CATs offer many other tools and functionalities, but these are not relevant to this project, so they are not discussed.
 
 # What CATs are there?
 
-There are many different CAT programs. Some are open-source, some are cloud-based, while some are completely desktop.
+There are many different CAT programs. Some are open-source, some are cloud-based, while some are completely desktop-based.
 
 In this project, three CATs are analysed to test how they import and export Markdown files:
 - [Phrase](#phrase)
@@ -36,7 +36,7 @@ In this project, Phrase CAT web editor ver. 23.18.1 was used.
 
 ### Trados Studio 2022
 
-[Trados Studio](https://www.trados.com/products/trados-studio/whats-new-studio-2022.html) is the oldest CAT software and often regarded as an industry-standard. It works as a desktop application.
+[Trados Studio](https://www.trados.com/products/trados-studio/whats-new-studio-2022.html) is the oldest CAT software and often regarded as an industry standard. It works as a desktop application.
 
 In this project, Trados Studio 2022 ver. 17.0.4.13209 was used.
 
@@ -52,7 +52,7 @@ In this project, Wordfast Pro 8 ver. 8.1.0 was used.
 
 ---
 
-Those CATs import Markdown files. However, there is not a one way of importing a Markdown file and the CATs do it differently.
+These CATs import Markdown files. However, there is not one way of importing a Markdown file and CATs do it differently.
 
 ---
 Next section: [*Why is Markdown difficult in translation?*](ref-why-md-difficult.md)
