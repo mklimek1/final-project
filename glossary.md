@@ -20,7 +20,7 @@ A program that helps translators translate.
 
 ## Ignored
 
-Part of HTML or Markdown syntax that is not displayed in the [CAT](#CAT) editor.
+Part of HTML or Markdown syntax that is not <!-- isn't - w niektórych plikach są skróty --> displayed in the [CAT](#CAT) editor.
 
 # M
 
@@ -36,19 +36,19 @@ A text-encoding system in which symbols are used in a text document to change or
 
 ## Phrase
 
-Earlier Memsource; a cloud-based translation management system, which also includes a CAT tool. It is completely web-based, meaning it is used via a web browser.
+Earlier Memsource; a cloud-based translation management system, which also includes a CAT tool. It is <!-- it's - uwaga jak wyej i wcześniej --> completely web-based, meaning it is <!-- j.w. --> used via a web browser.
 
 # R
 
 ## Rendered normally
 
-Part of HTML or Markdown syntax that is displayed in the [CAT](#CAT) editor as normal characters rather than [tags](#tag).
+Part of HTML or Markdown syntax that is displayed in a [CAT](#CAT) editor as normal characters rather than [tags](#tag).
 
 # S
 
 ## Segment
 
-Usually a sentence, but it may be also, e.g., an item from a list or a header. A segment has its counterpart in the target language that is filled in with the translation by the translator.
+Usually a sentence, but it may be also, e.g., an item from a list or a header. A segment has its counterpart in the target language that is filled in with translation by the translator.
 
 # T
 
@@ -58,7 +58,7 @@ Non-editable placeholders for formatting used in [CATs](#CAT).
 
 ## Trados
 
-The oldest CAT software and often regarded as an industry-standard. It works as a desktop application.
+The oldest CAT software and often regarded as an industry standard. It works as a desktop application.
 
 ## Translation Memory
 
