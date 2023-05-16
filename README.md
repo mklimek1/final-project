@@ -1,3 +1,3 @@
 Final Project
 ====
-Final project for the Technical Communication studies.
+Final project for Technical Communication studies.
