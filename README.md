@@ -5,7 +5,7 @@ Final Project
 
 1. Najlepiej zacząć sprawdzanie od index.md w folderze głównym, a potem tekst i spis treści pokierują 🙂
 2. Te rzeczy się NA PEWNO wysypią w podglądzie w GitHubie, ale nie w Visual Studio Code (VSC):
-- zagnieżdżony HTML w "The test file" ((Markdown-in-CAT-test.md)
+- zagnieżdżony HTML w "The test file" (Markdown-in-CAT-test.md)
 - część formatowania MD w "The test file" (Markdown-in-CAT-test.md)
 - skrypt JS w "The test file" (Markdown-in-CAT-test.md)
 3. **NIE SPRAWDZAMY TREŚCI PLIKÓW FOLDERU RESOURCES**. To są tylko pliki poglądowe omawiane we właściwej części tekstu :) Jeśli są tam jakieś błędy gramatyczne, stylistyczne, inne — nie jest to ważne dla sensu pracy.
