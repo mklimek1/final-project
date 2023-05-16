@@ -20,7 +20,7 @@ A program that helps translators translate.
 
 ## Ignored
 
-Part of HTML or Markdown syntax that is not <!-- isn't - w niektórych plikach są skróty --> displayed in the [CAT](#CAT) editor.
+Part of HTML or Markdown syntax that is not displayed in a [CAT](#CAT) editor.
 
 # M
 
@@ -36,7 +36,7 @@ A text-encoding system in which symbols are used in a text document to change or
 
 ## Phrase
 
-Earlier Memsource; a cloud-based translation management system, which also includes a CAT tool. It is <!-- it's - uwaga jak wyej i wcześniej --> completely web-based, meaning it is <!-- j.w. --> used via a web browser.
+Earlier Memsource; a cloud-based translation management system, which also includes a CAT tool. It is completely web-based, meaning it is used via a web browser.
 
 # R
 

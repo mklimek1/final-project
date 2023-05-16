@@ -1,19 +1,12 @@
-# What is a CAT <!-- Linki do zewn. stron www działają -->
+# What is a CAT
 
-<!-- Briefly:
-- what is a CAT
-- how does it work?
-	- TMs
-- what CATs are covered here
-- -->
-
-A **Computer-Aided Translation** software (in short: a **CAT**) is a program that helps translators translate. Translation is still done by a human, but a CAT facilitates this process with inbuilt features.
+A **Computer-Aided Translation** software (in short: a **CAT**) is a program that helps translators translate. Translation is still done by a human, but the CAT facilitates this process with inbuilt features.
 
 The primary feature of a CAT is a text editor. A CAT can open many different source formats, like `.docx`, `HTML`, and Markdown `.md` files. A file to be translated is imported into the CAT and divided into **segments**. A segment is usually a sentence, but it may be also, e.g., an item from a list or a header. A segment has its counterpart in the target language that is filled in with translation by the translator.
 
-The CAT extracts text from the imported files and places it in segments. <!-- Powtórzenie info o segmentach --> As a result, the majority of formatting is not displayed, e.g., colour formatting or a website address. Some CATs display bold or italics, but this is not always the case. However, the CAT does not remove such formatting features permanently from the file, as they are required in the translated file. Such formatting is displayed as non-editable **tags**. They are non-editable, because they may also include text that is not to be translated, like a website address.
+In segments, the majority of formatting is not displayed, e.g., colour formatting or a website address. Some CATs display bold or italics, but this is not always the case. However, the CAT does not remove such formatting features permanently from the file, as they are required in the translated file. Such formatting is displayed as non-editable **tags**. They are non-editable, because they may also include text that is not to be translated, like a website address.
 
-Another important feature of a CAT <!-- Też kwestia "a" i "the" - kolejność --> is **translation memory**. A translation memory is a database that stores segments with their translated counterparts. The translated segments may be retrieved in the future if there is another segment that is exactly the same (a 100% match) or if it is similar (a fuzzy match).
+Another important feature of the CAT is **translation memory**. A translation memory is a database that stores segments with their translated counterparts. The translated segments may be retrieved in the future if there is another segment that is exactly the same (a 100% match) or if it is similar (a fuzzy match).
 
 CATs offer many other tools and functionalities, but these are not relevant to this project, so they are not discussed.
 

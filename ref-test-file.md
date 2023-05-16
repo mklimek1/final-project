@@ -1,4 +1,6 @@
-# The test file <!-- Może bez "the", bo tytuł? -->
+# The test file
+<!-- Może bez "the", bo tytuł? - JK
+Jak najbardziej z "the", bo to jest ten "THEEE test file" ;) - P -->
 
 To check the settings of the Markdown filter in Phrase, Trados Studio 2022, and Wordfast Pro 8, a test file was prepared. The assumption was to use all basic and extended Markdown tags in different combinations.
 
@@ -14,7 +16,7 @@ In the study, there are two phrases recurring with the following meanings:
 
 Surprising results are noted as follows: <kbd>&#128680;REALLY!</kbd>
 
-<!-- Jestem otwarty na sugestie inne niż syrena i REALLY :) --> <!-- Syrena i Really są fajne -->
+<!-- Jestem otwarty na sugestie inne niż syrena i REALLY! :) - P --> <!-- Syrena i Really są fajne - JK -->
 
 ---
 
