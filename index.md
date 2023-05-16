@@ -50,12 +50,12 @@ You can read this study as a whole or just the sections that are of interest to 
 	1. Settings
 	2. Results
 	3. Summary and recommendations
-5. Trados
-	1. Settings
-	2. Results
-	3. Summary and recommendations
-6. [Wordfast](wordfast-00-overview)
+5. [Trados](trados-00-overview.md)
 	1. [Settings](trados-01-settings.md)
+	2. [Results](trados-02-results.md)
+	3. [Summary and recommendations](trados-03-summary-and-recommendations.md)
+6. [Wordfast](wordfast-00-overview.md)
+	1. [Settings](wordfast-01-settings.md)
 	2. [Results](wordfast-02-results.md)
 	3. [Summary and recommendations](wordfast-03-summary-and-recommendations.md)
 7. Comparison
