@@ -1,4 +1,4 @@
-# What is a CAT
+# What is a CAT <!-- Linki do zewn. stron www działają -->
 
 <!-- Briefly:
 - what is a CAT
@@ -52,7 +52,7 @@ In this project, Wordfast Pro 8 ver. 8.1.0 was used.
 
 ---
 
-These CATs import Markdown files. However, there is not one way of importing a Markdown file and CATs do it differently.
+These CATs import Markdown files. However, there is no one way of importing a Markdown file and CATs do it differently.
 
 ---
 Next section: [*Why is Markdown difficult in translation?*](ref-why-md-difficult.md)
