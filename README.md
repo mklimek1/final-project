@@ -22,6 +22,8 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 2. Skup się proszę na tym, czy część dotycząca Markdowna i problemów Markdowna w CAT-ach jest zrozumiała dla osób nie mających z tym do czynienia.
 3. Jeśli masz jakieś pomysły dotyczące objaśnienia CAT-ów laikom — śmiało komentuj!
 
+# @Paweł: Poprawiłam, wg mnie dobrze się czyta i jest to zrozumiałe, napisane w przystępny sposób, dałam miejscami sugestie od siebie plus komentarze - do rozważenia, nie muszą być uwzględnione ;-)
+
 # Notatki @Monika
 
 # Notatki @Marta
