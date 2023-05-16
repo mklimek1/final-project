@@ -5,6 +5,12 @@ Wordfast Pro 8
 
 This section contains the results for the settings available in Wordfast Pro 8.
 
+<!-- REUSE COMP BGN -->
+The results for individual settings are grouped according to the sections in the test file. If a feature is not mentioned, it means it works as intended — it was imported correctly into the editor and produced correct output in the exported file.
+
+The test was carried out by checking the boxes in the settings. This made Wordfast Pro import more features and allowed more editing. However, if a feature started working, this is noted in the relevant section.
+<!-- REUSE COMP END -->
+
 ## General results
 
 The first obstacle with the test file was that Wordfast could not open it:
@@ -40,12 +46,6 @@ Wordfast Pro has difficulties with complex Markdown syntax. There are cases in w
 However, this does not affect the output file. The characters are correctly processed as Markdown tags.
 
 The Wordfast editor has its own tools for adding simple formatting like bold or italics. However, they do not work in the segment editor. To add new text formatting, it must be entered in Markdown syntax. It is then rendered correctly in the output file.
-
-<!-- REUSE COMP BGN -->
-The results for individual settings are grouped according to the sections in the test file. If a feature is not mentioned, it means it works as intended — it was imported correctly into the editor and produced correct output in the exported file.
-
-The test was carried out by checking the boxes in the settings. This made Wordfast Pro import more features and allowed more editing. However, if a feature started working, this is noted in the relevant section.
-<!-- REUSE COMP END -->
 
 Other general remarks on Wordfast Pro:
 - it does not interpret extended syntax, like subscript, superscript, or footnote — they are ignored and rendered normally
