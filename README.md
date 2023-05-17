@@ -7,6 +7,7 @@ Final Project
 
 1. Wariant: British English :uk:
 2. Skróty `isn't, don't` itd. **nie** są tolerowane, z wyjątkiem zdania `After all, you wouldn't drive a Ferrari to buy groceries, would you?` w [*What is Markdown?*](ref-markdown.md)
+3. Oxford Comma: tak
 
 ## Notatki ogólne 1.0
 
@@ -35,9 +36,11 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 
 **@Paweł: Poprawiłam, wg mnie dobrze się czyta i jest to zrozumiałe, napisane w przystępny sposób, dałam miejscami sugestie od siebie plus komentarze - do rozważenia, nie muszą być uwzględnione ;-)**
 
-**Do rozważenia:**
-**- W jakim piszesz języku: BrE czy AmE (pisownia np. color)**
-**- Czy stosować skróty typu "it's" czy "wouldn't" czy nie**
+~~**Do rozważenia:**~~
+- ~~**W jakim piszesz języku: BrE czy AmE (pisownia np. color)**~~
+- ~~**Czy stosować skróty typu "it's" czy "wouldn't" czy nie**~~
+
+Dzięki, przerzuciłem wytyczne do notatek :)
 
 # Notatki @Monika
 
