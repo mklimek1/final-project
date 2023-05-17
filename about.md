@@ -22,7 +22,7 @@ Here are some details about the project:
 
 **Software — Primary**: [Phrase](https://phrase.com/), [Trados Studio](https://www.trados.com/products/trados-studio/whats-new-studio-2022.html), [Wordfast Pro](https://www.wordfast.com/products/wordfast_pro)
 
-**Software — Tools**: [Obsidian](https://obsidian.md/), [Visual Studio Code](https://code.visualstudio.com/), [GitHub Desktop](https://desktop.github.com/), [Snip & Sketch](https://en.wikipedia.org/wiki/Snipping_Tool)
+**Software — Tools**: [GitHub Desktop](https://desktop.github.com/), [Obsidian](https://obsidian.md/), [Snip & Sketch](https://en.wikipedia.org/wiki/Snipping_Tool), [Total Commander](https://www.ghisler.com/), [Visual Studio Code](https://code.visualstudio.com/),
 
 **Supervisor**: [Marta Bartnicka](https://www.linkedin.com/in/marta-bartnicka-713969/)
 

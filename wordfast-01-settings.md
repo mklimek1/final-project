@@ -3,6 +3,8 @@ Wordfast Pro 8
 
 # Settings
 
+![wordfast-settings](./resources/images/screenshots/pasted-image-20230518004130.png)
+
 Wordfast Pro 8 has the following filter settings for Markdown:
 1. Soft Line Break Type:
 	1. tag
