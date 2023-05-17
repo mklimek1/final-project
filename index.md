@@ -15,11 +15,11 @@ This study presents how three CAT programs — Phrase, Trados Studio 2022, and W
 
 Successful translation of a Markdown file is like a coin: there are two sides that are inseparable opposites.
 
-On the one side, there is the technical writer who creates the Markdown file. <!--Do ustalenia kwestia "the" i "a" przy tłumaczu i TEW - chodzi o kolejność: najpierw "a", potem "the", chyba, że chodzi o coś innego, a są kilka razy wymienieni - JK -->
+On the one side, there is a technical writer who creates the Markdown file. <!--Do ustalenia kwestia "the" i "a" przy tłumaczu i TEW - chodzi o kolejność: najpierw "a", potem "the", chyba, że chodzi o coś innego, a są kilka razy wymienieni - JK -->
 
-On the other side, there is the translator who translates the Markdown file.
+On the other side, there is a translator who translates the Markdown file.
 
-Both the technical writer and the translator must be aware of pitfalls and obstacles Markdown files pose in translation with CAT programs.
+Both the technical writer and the translator must be aware of the pitfalls and obstacles Markdown files pose in translation with CAT programs.
 
 A technical writer needs to have general knowledge about what a CAT program can do, can do to a certain extent, and cannot do. They can also make translation of Markdown files easier by writing their texts in a specific manner. Lastly, they can meet the translator halfway by preparing a brief with dos and don'ts.
 
