@@ -1,4 +1,4 @@
-How do CATs process Markdown files? <!--Lepiej może: How CATs process Markdown files - JK-->
+How do CATs process Markdown files? <!--Lepiej może: How CATs process Markdown files - JK--> <!-- Wolę pytanie, zostawiam, jak jest :) - P -->
 ===
 
 # Introduction
@@ -12,10 +12,11 @@ There are many different CAT programs available. However, they process Markdown 
 This study presents how three CAT programs — Phrase, Trados Studio 2022, and Wordfast Pro — process Markdown files with inbuilt settings.
 
 # Aim <!--To jest fragment pasujący bardziej do opisu, o celu jest w akapicie poniżej. Może połączyć go z Introduction, skondensować, są to ciekawe informacje i fajnie jest to napisane, tylko też nie wiem, czy znalazłyby się w instrukcji, ale jakby je napisać w taki sposób, żeby uzasadniały, po co ta instrukcja powstała, to jak najbardziej - JK-->
+<!-- Wolę to jednak tutaj zostawić, ale zostawiam to jeszcze otwarte dla @Moniki i @Marty -->
 
 Successful translation of a Markdown file is like a coin: there are two sides that are inseparable opposites.
 
-On the one side, there is a technical writer who creates the Markdown file. <!--Do ustalenia kwestia "the" i "a" przy tłumaczu i TEW - chodzi o kolejność: najpierw "a", potem "the", chyba, że chodzi o coś innego, a są kilka razy wymienieni - JK -->
+On the one side, there is a technical writer who creates the Markdown file.
 
 On the other side, there is a translator who translates the Markdown file.
 
@@ -28,6 +29,7 @@ A translator needs to have general knowledge about Markdown. The translator shou
 This study is like the rim of a coin; it joins both sides so they can create together a unified whole.
 
 # How to use this study <!--Poniżej jest mowa o celu instrukcji, co bardziej by pasowało do akapitu powyżej - Cel. Może to przeformułować razem z powyższymi akapitami? - JK-->
+<!-- Dzięki, przefrazowałem to trochę, ale jednak wolę to zostawić w tym miejscu :) - P -->
 
 This study is of value for both technical writers and translators. Whether you are the former or the latter, you can treat it as a point of reference on Markdown for translators and on CAT programs for technical writers.
 
