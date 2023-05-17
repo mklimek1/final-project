@@ -198,13 +198,13 @@ Odniesienie do rozdziału [**Pogrubienie** znajduje się tutaj](#bold).
 Odniesienie do [pliku Markdown w __repozytorium__ znajduje się _tutaj_](Project-Woźnikowski-2022-11-27.md).
 
 ### Odniesienia do plików graficznych
-1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](IMG_20200401_210429.jpg).
+1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](Images/IMG_20200401_210429.jpg).
 2. Odniesienie do wyświetlanego pliku graficznego w repozytorium znajduje się tutaj:
    
-   ![Shark](IMG_20200401_210429.jpg)
+   ![Shark](Images/IMG_20200401_210429.jpg)
 3. Odniesienie do wyświetlanego pliku graficznego w repozytorium z wyświetlanym tekstem podpisu znajduje się tutaj:
    
-   ![Shark](IMG_20200401_210429.jpg "A Technical Writer Shark")
+   ![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")
 4. Odniesienie do wyświetlanego pliku graficznego znajdującego się w internecie:
    
    ![Cieszyn](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg/310px-2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg "Cieszyn")
