@@ -18,11 +18,11 @@ All of these are unchecked in default settings.
 
 The default settings were used as the basic settings in the study. Then, further settings were added in the order from top to bottom. The embedded content processors were tested one by one.
 
-The behaviour of the settings is described in the [Trados Studio 2022 — Results](trados-02-results.md) section.
+The behaviour of the settings is described in the [Trados Studio 2022 — results](trados-02-results.md) section.
 
 ---
 
-Go to section: [*Trados Studio 2022 — Results*](trados-02-results.md) 
+Go to section: [*Trados Studio 2022 — results*](trados-02-results.md) 
 
 ---
 
