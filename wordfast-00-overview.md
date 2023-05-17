@@ -7,7 +7,7 @@ Wordfast Pro 8
 
 In this project, Wordfast Pro 8 ver. 8.1.0 was used.
 
-Wordfast Pro 8 was chosen because licence was available to the author and it is fairly [popular among translators](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using "Proz article on CAT use").
+Wordfast Pro 8 was chosen because a licence was available to the author and it is fairly [popular among translators](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using "Proz article on CAT use").
 
 The discussion of the test file in Wordfast is grouped into three sections:
 
@@ -17,11 +17,12 @@ The discussion of the test file in Wordfast is grouped into three sections:
 
 ---
 
-Go to section: [*Wordfast Pro 8 — Settings*](wordfast-01-settings.md)
+Go to section: [*Settings*](wordfast-01-settings.md)
 
 ---
 
 References:
-[Tabor, Jared "CAT tool use by translators: what are they using?", Proz.com, access 2023-05-16](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using)
+[Proz.com](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using)
+
 ---
 [Back to top](#overview)

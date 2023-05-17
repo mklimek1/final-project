@@ -11,11 +11,11 @@ The results for individual settings are grouped according to the sections in the
 The test was carried out by checking the boxes in the settings. This made Wordfast Pro import more features and allowed more editing. However, if a feature started working, this is noted in the relevant section.
 <!-- REUSE COMP END -->
 
-## General results
+# General results
 
 The first obstacle with the test file was that Wordfast could not open it:
 
-![error](./resources/images/screenshots/Pasted-image-20230505195326.png)
+![error](resources/images/screenshots/Pasted-image-20230505195326.png)
 *Figure 1: error message when importing the test file*
 
 After trial and error, it was discovered that the following lines were causing the error:
@@ -35,12 +35,12 @@ To continue the test, the two lines were changed into inline code and a slightly
 
 Once opened, Markdown tags are are displayed as in Figure 2:
 
-![tags-1](./resources/images/screenshots/Pasted-image-20230506130422.png)
+![tags-1](resources/images/screenshots/Pasted-image-20230506130422.png)
 *Figure 2: Markdown tags displayed in the Wordfast editor*
 
 Wordfast Pro has difficulties with complex Markdown syntax. There are cases in which tags are rendered normally as asterisks or underscore signs, e.g. when they are combined together, they are between characters other than spaces, or they are in a table; see Figure 3.
 
-![tags-2](Pasted-image-20230515231116.png)
+![tags-2](resources/images/screenshots/pasted-image-20230515231116.png)
 *Figure 3: Markdown tags displayed as characters*
 
 However, this does not affect the output file. The characters are correctly processed as Markdown tags.

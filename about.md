@@ -12,7 +12,7 @@ This guide was created as a graduation project as part of the [Technical Communi
 
 Here are some details about the project:
 
-**Title**: How do CATs process Markdown files? <!-- Zob. uwaga do tytułu w pliku o tym tytule -->
+**Title**: How do CATs process Markdown files?
 
 **Personas**: translators who need to translate an .md file and technical writers who need to send .md files for translation
 
