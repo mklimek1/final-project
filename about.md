@@ -8,11 +8,11 @@ Here I'd like to mention [Kacper Bojakowski's](https://github.com/kacperbojakows
 
 # Project
 
-This guide was created as a graduation project as part of [Technical Communication](https://vistula.edu.pl/kierunki-studiow/komunikacja-techniczna) studies at [Vistula University](https://vistula.edu.pl/en) during the academic year 2022/2023.
+This guide was created as a graduation project as part of the [Technical Communication](https://vistula.edu.pl/kierunki-studiow/komunikacja-techniczna) studies at the [Vistula University](https://vistula.edu.pl/en) during the academic year 2022/2023.
 
 Here are some details about the project:
 
-**Title**: How do CATs process Markdown files?
+**Title**: How do CATs process Markdown files? <!-- Zob. uwaga do tytułu w pliku o tym tytule -->
 
 **Personas**: translators who need to translate an .md file and technical writers who need to send .md files for translation
 
@@ -38,16 +38,16 @@ E.g.
 
 # References
 
-1. [Britannica](https://www.britannica.com/technology/markup-language)
+1. ["Markup language", Britannica](https://www.britannica.com/technology/markup-language)
 2. [Collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
 3. [Daring Fireball](https://daringfireball.net/projects/markdown/)
 4. [Keyboard glyphs](https://meta.stackexchange.com/questions/5527/keyboard-glyphs)
 5. [Markdownguide.org](https://www.markdownguide.org/)
-6. [Proz.com](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using)
+6. [Tabor, Jared "CAT tool use by translators: what are they using?", Proz.com, access 2023-05-16](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using)
 
 # Author
 
-Hi, I'm Paweł and I'm a technical translator with 10 years of experience. I translate mostly instruction manuals and other types of technical documentation. In 2022, I decided to enrol on the [Technical Communication](https://vistula.edu.pl/kierunki-studiow/komunikacja-techniczna) studies at [Vistula University](https://vistula.edu.pl/en) to try my hand at creating technical documentation rather than translating it. Now, I'm open to embark on a new adventure bringing a translator's perspective to the table.
+Hi, I'm Paweł and I'm a technical translator with 10 years of experience. I translate mostly instruction manuals and other types of technical documentation. In 2022, I decided to enrol on the [Technical Communication](https://vistula.edu.pl/kierunki-studiow/komunikacja-techniczna) studies at the [Vistula University](https://vistula.edu.pl/en) to try my hand at creating technical documentation rather than translating it. Now, I'm ready to embark on a new adventure bringing a translator's perspective to the table.
 
 Useful links and contact:
 - [LinkedIn](https://www.linkedin.com/in/pawel-woznikowski/)

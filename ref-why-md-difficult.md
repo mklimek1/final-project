@@ -1,8 +1,8 @@
-# Why is Markdown difficult in translation?
+# Why is Markdown difficult for CATs?
 
-Because Markdown syntax uses characters that can appear in a text in their normal use and there are different characters that serve the same purpose, it is difficult for CAT software developers to create good Markdown filters. The filters need to sift out the Markdown tags and place non-editable tags in a CAT program. The tags in the CAT must be non-editable to avoid an accidental editing or deletion.
+Because Markdown syntax uses characters that can appear in a text in their normal use and there are different characters that serve the same purpose, it is difficult for CAT software developers to create good Markdown filters. The filters need to sift out Markdown tags and place non-editable tags in a CAT program. The tags in the CAT must be non-editable to avoid an accidental editing or deletion.
 
-However, some Markdown tags must be editable to certain degree:
+However, some Markdown tags must be editable to a certain degree:
 ```
 1. [**Bold**](#bold)
 2. ![Shark](resources/images/IMG_20200401_210429.jpg "A Technical Writer Shark")
@@ -13,7 +13,7 @@ In the second example, the whole line is a reference to a displayed image file w
 
 The difficulty lies in using such filters that interpret asterisks or brackets as Markdown tags, while also interpret them as normal characters used in the text, like `The Markdown file extension is *.md ("md" stands for Markdown)`. This is made difficult even further when combined with other characters that build up Markdown tags.
 
-The Markdown filters in Phrase, Trados Studio 2022, and Wordfast Pro 8 were tested on various Markdown tags in different combinations. A special test file was created for this purpose.
+Markdown filters in Phrase, Trados Studio 2022, and Wordfast Pro 8 were tested on various Markdown tags in different combinations. A special test file was created for this purpose.
 
 ---
 
@@ -22,6 +22,3 @@ Next section: [*The test file*](ref-test-file.md)
 ---
 
 [Back to top](#why-is-markdown-difficult-in-translation&#63;)
-
-
-

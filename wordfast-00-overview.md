@@ -17,12 +17,11 @@ The discussion of the test file in Wordfast is grouped into three sections:
 
 ---
 
-Go to section: [*Settings*](wordfast-01-settings.md)
+Go to section: [*Wordfast Pro 8 — Settings*](wordfast-01-settings.md)
 
 ---
 
 References:
-[Proz.com](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using)
-
+[Tabor, Jared "CAT tool use by translators: what are they using?", Proz.com, access 2023-05-16](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using)
 ---
 [Back to top](#overview)
