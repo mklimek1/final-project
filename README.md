@@ -8,8 +8,6 @@ Final Project
 1. Wariant: British English :uk:
 2. Skróty `isn't, don't` itd. **nie** są tolerowane, z wyjątkiem zdania `After all, you wouldn't drive a Ferrari to buy groceries, would you?` w [*What is Markdown?*](ref-markdown.md)
 3. Oxford Comma: tak
-4. Do poprawy:
-   - przecinki przed `because`; wiem, że to trzeba ogarnąć — zrobię na sam koniec :)
 
 ## Notatki ogólne 1.0
 
@@ -21,6 +19,11 @@ Final Project
 3. **NIE SPRAWDZAMY TREŚCI PLIKÓW FOLDERU RESOURCES**. To są tylko pliki poglądowe omawiane we właściwej części tekstu :) Jeśli są tam jakieś błędy gramatyczne, stylistyczne, inne — nie jest to ważne dla sensu pracy.
 4. **W tekście znajdują się komentarze do Was w formacie `<!-- -->`!** Dlatego lepiej sprawdzać w VSC albo w edytorze kodu w GitHubie.
 5. Starałem się to pisać w miarę prostym angielskim, dlatego styl może być trochę suchy z wyjątkiem `index.md`. Zwróćcie proszę uwagę, czy nie ma skrótów myślowych/klątwy wiedzy.
+
+## *Known issues*
+
+- przecinki przed `because` — zrobię na sam koniec :)
+- rozjechane podpisy pod obrazkami — w Obsidianie wyglądało ok, ale Obsidian wiele rzeczy robi po cichu sam, co potem GitHub czy VSC inaczej rozumieją; poprawię później
 
 ---
 
