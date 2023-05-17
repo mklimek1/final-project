@@ -7,6 +7,7 @@ Final Project
 
 1. Wariant: British English :uk:
 2. Skróty `isn't, don't` itd. **nie** są tolerowane, z wyjątkiem zdania `After all, you wouldn't drive a Ferrari to buy groceries, would you?` w [*What is Markdown?*](ref-markdown.md)
+3. Oxford Comma: tak
 
 ## Notatki ogólne 1.0
 
