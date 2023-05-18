@@ -1,4 +1,4 @@
-Wordfast Pro 8
+Wordfast Pro 8 <!-- Images under Figures don't display correctly, they appear as broken -->
 ===
 
 # Wordfast — Results
@@ -33,12 +33,12 @@ Different combinations of bold, italics, and strikethrough are covered in the [W
 
 To continue the test, the two lines were changed into inline code and a slightly changed [test file](./resources/Markdown-in-CAT-test-Wordfast Pro.md)  was used.
 
-Once opened, Markdown tags are are displayed as in Figure 2:
+Once opened, Markdown tags are displayed as in Figure 2:
 
 ![tags-1](resources/images/screenshots/Pasted-image-20230506130422.png)
 *Figure 2: Markdown tags displayed in the Wordfast editor*
 
-Wordfast Pro has difficulties with complex Markdown syntax. There are cases in which tags are rendered normally as asterisks or underscore signs, e.g. when they are combined together, they are between characters other than spaces, or they are in a table; see Figure 3.
+Wordfast Pro has difficulties with complex Markdown syntax. There are cases in which tags are rendered normally as asterisks or underscore signs, e.g., when they are combined together, they are between characters other than spaces, or they are in a table; see Figure 3.
 
 ![tags-2](resources/images/screenshots/pasted-image-20230515231116.png)
 *Figure 3: Markdown tags displayed as characters*
