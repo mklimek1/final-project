@@ -26,6 +26,10 @@ Final Project
 4. **W tekście znajdują się komentarze do Was w formacie `<!-- -->`!** Dlatego lepiej sprawdzać w VSC albo w edytorze kodu w GitHubie.
 5. Starałem się to pisać w miarę prostym angielskim, dlatego styl może być trochę suchy z wyjątkiem `index.md`. Zwróćcie proszę uwagę, czy nie ma skrótów myślowych/klątwy wiedzy.
 
+# *Issues*
+
+Tutaj wrzucamy ogólne problemy, które wymagają szerszej edycji lub redakcji.
+
 ## *Known issues*
 
 - przecinki przed `because` — zrobię na sam koniec :)
