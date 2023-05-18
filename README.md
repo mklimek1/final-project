@@ -6,6 +6,8 @@ Final Project
 ## Notatki ogólne 1.2
 
 1. Jeśli znajdziecie jakieś terminy, styl, coś merytorycznego, co ma być do ujednolicenia **W WIELU PLIKACH** (por. [*Known issues*](#known-issues)), dopiszcie to do tych *Known issues*. Zajmię się tym na sam koniec, bo nie chcę Was obarczać znanym i nielubianym *monkey-job* :)
+2. Jest to wspomniane bezpośrednio w plikach, ale wrzucam uwagę też tu: niektóre formatowanie zastosowane w *the test file* **nie działa** w podglądzie GitHuba.
+3. Jeśli dalej jakieś ilustracje lub inne odniesienia do sekcji nie działają, dajcie znać. Obsidian jest za bardzo *user-friendly* i wyręcza w wielu kwestiach, co potem tworzy problemy w GitHubie.
 
 ## Notatki ogólne 1.1
 
@@ -59,5 +61,8 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 Dzięki, przerzuciłem wytyczne do notatek :)
 
 # Notatki @Monika
+
+1. Skup się proszę na tym, czy część dotycząca CAT-ów i problemów Markdowna w CAT-ach jest zrozumiała dla osób nie mających z tym do czynienia.
+2. Jeśli masz jakieś pomysły dotyczące objaśnienia Markdowna laikom — śmiało komentuj!
 
 # Notatki @Marta
