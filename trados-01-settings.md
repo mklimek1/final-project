@@ -3,7 +3,8 @@ Trados Studio 2022
 
 # Settings
 
-![default-trados-settings](./resources/images/screenshots/Pasted-image-20230518002842.png)
+![default-trados-settings](./resources/images/screenshots/pasted-image-20230518002842.png)
+
 *Figure 1: default Markdown filters in Trados Studio 2022*
 
 Trados Studio 2022 has the following filter settings for Markdown:
