@@ -9,6 +9,8 @@ This section contains the results for the settings available in Wordfast Pro 8.
 The results for individual settings are grouped according to the sections in the test file. If a feature is not mentioned, it means it works as intended — it was imported correctly into the editor and produced correct output in the exported file.
 
 The test was carried out by checking the boxes in the settings. This made Wordfast Pro import more features and allowed more editing. However, if a feature started working, this is noted in the relevant section.
+
+**IMPORTANT**:  Not every Markdown formatting, e.g. `^superscript^`, works in GitHub preview. The fact that a feature does not work in GitHub preview does not mean it is caused by the incorrect output from the CAT.
 <!-- REUSE COMP END -->
 
 # General results
@@ -69,11 +71,13 @@ Basic syntax works as intended.
 
 ## Links
 
-Reference is ignored and cannot be translated — this makes table of contents useless and any other references inside the file.
+Reference does not work: the content in round brackets in `[Składnia podstawowa](#basic-syntax)` is not translatable
 
 Image alt text in a displayed image is ignored.
 
 Hover text is ignored.
+
+The rest works as intended.
 
 ## Quotations
 
@@ -82,6 +86,8 @@ Inline code is ignored.
 Block code is ignored.
 
 Block code with JavaScript comment is ignored.
+
+The rest works as intended.
 
 ## Extended syntax
 
@@ -97,11 +103,19 @@ Footnotes are rendered normally.
 
 Comments to be omitted are ignored.
 
+The rest works as intended.
+
 ## HTML and other tags
+
+A Markdown table in the collapsed section does not work.
+
+<kbd>&#128680;REALLY!</kbd>: However, other Markdown formatting works in the collapsed section.
 
 <kbd>&#128680;REALLY!</kbd>: text between `<code></code>` HTML tags can be translated. It was expected that it would be ignored just like inline code or code block.
 
 <kbd>&#128680;REALLY!</kbd>: text in the embedded HTML works as intended, including buttons.
+
+The rest works as intended.
 
 # [Extract image alt text](./resources/Markdown-in-CAT-test-WF_PL-02.md)
 

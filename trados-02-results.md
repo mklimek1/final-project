@@ -9,9 +9,11 @@ This section contains the results for the settings available in Trados Studio 20
 The results for individual settings are grouped according to the sections in the test file. If a feature is not mentioned, it means it works as intended — it was imported correctly into the editor and produced correct output in the exported file.
 
 The test was carried out by checking the boxes in the settings. This made Trados import more features and allowed more editing. However, if a feature started working, this is noted in the relevant section.
+
+**IMPORTANT**:  Not every Markdown formatting, e.g. `^superscript^`, works in GitHub preview. The fact that a feature does not work in GitHub preview does not mean it is caused by the incorrect output from the CAT.
 <!-- REUSE COMP END -->
 
-## General results
+# General results
 
 Trados sometimes does not display tags for bold, italics, or strikethrough, but shows formatted text in the editor.
 
@@ -62,6 +64,8 @@ Block code with JavaScript comment is rendered as a tag.
 ## Extended syntax
 
 Emoji is ignored, but it works in the output file.
+
+Footnotes do not work in the output file.
 
 Comments to be omitted are ignored.
 

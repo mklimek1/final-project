@@ -25,6 +25,8 @@ Final Project
 - przecinki przed `because` — zrobię na sam koniec :)
 - uściślenie terminologii:
    - `extracted` -> `imported`
+   - `target` -> `output file`
+   - `output` -> `output file`
 
 ## *Solved issues*
 
