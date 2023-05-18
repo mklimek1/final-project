@@ -1,4 +1,4 @@
-Trados Studio 2022
+Trados Studio 2022 <!-- Reference links work as intended ;-) -->
 ===
 <!-- Tak, tu jest powtórzenie treści, bo tutaj czytelnik może przyjść po prostu ze spisu treści, jeśli będzie wolał czytać od razu o Tradosie-->
 # Overview

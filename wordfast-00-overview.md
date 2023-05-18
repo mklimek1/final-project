@@ -1,4 +1,4 @@
-Wordfast Pro 8
+Wordfast Pro 8 <!-- Links work as intended ;-) -->
 ===
 <!-- Tak, tu jest powtórzenie treści, bo tutaj czytelnik może przyjść po prostu ze spisu treści, jeśli będzie wolał czytać od razu o Wordfaście-->
 # Overview

@@ -1,6 +1,6 @@
 # Summary
 
-In general, Trados Studio 2022 is a good tool translate Markdown files. However, it shows strange behaviour and errors in some of the settings.
+In general, Trados Studio 2022 is a good tool to translate Markdown files. However, it shows strange behaviour and errors in some of the settings.
 
 ## Advantages
 
@@ -26,7 +26,7 @@ This section contains recommendations for technical writers (or generally, autho
 - Instruct the translator about basic Markdown syntax because tags in code block are rendered normally
 - If references are translated, instruct the translator about:
 	- How to open a Markdown file
-	- The syntax: one hash symbol, no space between the hash symbol and the first word, small letters, and minus symbol instead of spaces; e.g. the reference to this section should be `#recommendations-for-technical writers`
+	- The syntax: one hash symbol, no space between the hash symbol and the first word, small letters, and minus symbol instead of spaces; e.g., the reference to this section should be `#recommendations-for-technical writers`
 - Instruct the translator about HTML syntax, because HTML tags in code block and in embedded HTML are rendered normally
 - If possible, use code block even for inline code because inline code cannot be translated
 - Encourage the translator to report any characters that are not used in a standard way in the source language
@@ -36,10 +36,10 @@ This section contains recommendations for technical writers (or generally, autho
 
 - Adapt the settings to your needs — if the embedded HTML does not contain content to be translated, untick the `Translate HTML block` box
 	- This way you do not risk accidental editing of the HTML code
-- Take care not to edit something that may be a tag when you translate the content of the code block
-- Contact the technical writer if characters are not used in a standard way in the source language
+- Make sure you do not edit something that may be a tag when you translate the content of the code block
+- Contact the technical writer if characters are not <!-- aren't --> used in a standard way in the source language
 - Be aware that some content between different HTML tags may or may not be imported into Trados and, as a result, translated
-- Carefully check the output file if something is not missing or placed incorrectly, e.g. hover text
+- Carefully check the output file for any missing elements or elements placed incorrectly, e.g., hover text
 
 
 ---
