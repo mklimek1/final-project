@@ -1,4 +1,4 @@
-Trados Studio 2022
+Trados Studio 2022 <!-- Images under some Figures don't display correctly, they appear as broken -->
 ===
 
 # Trados — results
@@ -53,7 +53,7 @@ Reference does not work: the content in round brackets in `[Składnia podstawowa
 
 Inline code is rendered as a tag.
 
-Block code is is rendered as a tag.
+Block code is rendered as a tag.
 
 Block code with JavaScript comment is rendered as a tag.
 
@@ -84,7 +84,7 @@ Comments to be omitted are ignored.
 
 This setting works like [default settings](#default-settings), only segmentation changed. As a result, further description is omitted.
 
-# [Translate code blocks — embedded content plain text v 1.0.0.0](Markdown-in-CAT-test-TS_PL-03.md)
+# [Translate code blocks — embedded content plain text v. 1.0.0.0](Markdown-in-CAT-test-TS_PL-03.md)
 
 ## Basic syntax
 
@@ -136,13 +136,13 @@ After trial and error, it was discovered that JavaScript code block generates th
 
 The quotation marks in the code block for "Definition" are rendered as `&bdquo;` in the output file.
 
-Apart from that, the text differs in segmentation, but the general behaviour stays as in [Translate code blocks — embedded content plain text v 1.0.0.0](#Translatecode-blocks-embedded-content-plain-text-v-1.0.0.0).
+Apart from that, the text differs in segmentation, but the general behaviour stays as in [Translate code blocks — embedded content plain text v. 1.0.0.0](#Translatecode-blocks-embedded-content-plain-text-v-1.0.0.0).
 
 As a result, no further study is carried out here.
 
-# [Translate HTML blocks — embedded content plain text v 1.0.0.0](Markdown-in-CAT-test-TS_PL-05.md)
+# [Translate HTML blocks — embedded content plain text v. 1.0.0.0](Markdown-in-CAT-test-TS_PL-05.md)
 
-It is used in combination with [Translate code blocks — embedded content plain text v 1.0.0.0](#Translatecode-blocks-embedded-content-plain-text-v-1.0.0.0), because this gave the least number errors.
+It is used in combination with [Translate code blocks — embedded content plain text v. 1.0.0.0](#Translatecode-blocks-embedded-content-plain-text-v-1.0.0.0), because this gave the least number errors.
 
 # Results
 
