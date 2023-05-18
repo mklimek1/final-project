@@ -62,7 +62,7 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 - ~~**W jakim piszesz języku: BrE czy AmE (pisownia np. color)**~~
 - ~~**Czy stosować skróty typu "it's" czy "wouldn't" czy nie**~~
 
-Dzięki, przerzuciłem wytyczne do notatek :)
+*Dzięki, przerzuciłem wytyczne do notatek :) — P*
 
 # Notatki @Monika
 
