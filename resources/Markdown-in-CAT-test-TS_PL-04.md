@@ -221,11 +221,11 @@ Odniesienie do [pliku Markdown w __repozytorium__ znajduje się _tutaj_](README.
 
 ### Odniesienia do plików graficznych
 
-1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](Images/IMG_20200401_210429.jpg).
+1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](images/IMG_20200401_210429.jpg).
 
 2. Odniesienie do wyświetlanego pliku graficznego w repozytorium znajduje się tutaj:
    
-   ![Rekin](Images/IMG_20200401_210429.jpg)
+   ![Rekin](images/IMG_20200401_210429.jpg)
 
 3. Odniesienie do wyświetlanego pliku graficznego znajdującego się w internecie:
    
@@ -248,14 +248,14 @@ Poniżej znajduje się kilka przykładów odnośników z tekstem podpisu.
 1. Odniesienie do rozdziału [**Pogrubienie** z tekstem podpisu znajduje się tutaj](#bold "Jestem tym, co gram").
 2. Odniesienie do wyświetlanego pliku graficznego w repozytorium z wyświetlanym tekstem podpisu znajduje się tutaj:
 
-![Rekin](Images/IMG_20200401_210429.jpg "Rekin dokumentalista") 3. Odniesienie do [mojej strony Translatorion.com znajduje się tutaj](https://translatorion.com/ "Bardziej pogrubione").
+![Rekin](images/IMG_20200401_210429.jpg "Rekin dokumentalista") 3. Odniesienie do [mojej strony Translatorion.com znajduje się tutaj](https://translatorion.com/ "Bardziej pogrubione").
 
 ### Składnia dotycząca odniesień
 
 Składnia dotycząca odniesień — przykłady:
 
 1. `[**Bold** is here](#bold)`
-2. `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
+2. `![Shark](images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
 3. `[![I am a DJ](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk "I am what I play")`
 
 ## Cytowanie
@@ -268,7 +268,7 @@ Rozdział ten przedstawia różne sposoby cytowania tekstu lub kodu.
 > 
 > > Ten cytat znajduje się [wewnątrz cytatu](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Nie wybrałem życia tłumacza, życie tłumacza wybrało mnie").
 > > 
-> > > ![wewnątrz cytatu](./Images/deeper.jpg "Głębokie")
+> > > ![wewnątrz cytatu](./images/deeper.jpg "Głębokie")
 > 
 > Ten cytat ~~nie~~ *również* obejmuj*e* __podstawową składnię__ i [*odniesienie*](https://en.wikipedia.org/wiki/Link,_West_Virginia "Incepcja zanim stała się spoko").
 > 
@@ -277,7 +277,7 @@ Rozdział ten przedstawia różne sposoby cytowania tekstu lub kodu.
 Składnia:
 
 ```
-&gt; Oto przykład cytatu. &gt; &gt; &gt; Ten cytat znajduje się [wewnątrz cytatu](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream &quot;Incepcja zanim stała się spoko). &gt; &gt; &gt; ![wewnątrz cytatu](./Images/deeper.jpg &quot;Głębokie&quot;) &gt; &gt; Ten cytat ~~nie~~ *r&oacute;wnież* obejmuj*e* __podstawową składnię__ i [*odniesienie*](https://en.wikipedia.org/wiki/Link,_West_Virginia). &gt; &gt; &mdash; *Konfuzjusz*
+&gt; Oto przykład cytatu. &gt; &gt; &gt; Ten cytat znajduje się [wewnątrz cytatu](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream &quot;Incepcja zanim stała się spoko). &gt; &gt; &gt; ![wewnątrz cytatu](./images/deeper.jpg &quot;Głębokie&quot;) &gt; &gt; Ten cytat ~~nie~~ *r&oacute;wnież* obejmuj*e* __podstawową składnię__ i [*odniesienie*](https://en.wikipedia.org/wiki/Link,_West_Virginia). &gt; &gt; &mdash; *Konfuzjusz*
 ```
 
 ### Wiersz kodu

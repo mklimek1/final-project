@@ -215,10 +215,10 @@ Odniesienie do rozdziału [**Pogrubienie** znajduje się tutaj](#bold).
 Odniesienie do [pliku Markdown w __repozytorium__ znajduje się _tutaj_](README.md).
 
 ### Odniesienia do plików graficznych
-1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](Images/IMG_20200401_210429.jpg).
+1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](images/IMG_20200401_210429.jpg).
 2. Odniesienie do wyświetlanego pliku graficznego w repozytorium znajduje się tutaj:
    
-   ![Rekin](Images/IMG_20200401_210429.jpg)
+   ![Rekin](images/IMG_20200401_210429.jpg)
 
 3. Odniesienie do wyświetlanego pliku graficznego znajdującego się w internecie:
    
@@ -239,14 +239,14 @@ Poniżej znajduje się kilka przykładów odnośników z tekstem podpisu.
 1. Odniesienie do rozdziału [**Pogrubienie** z tekstem podpisu znajduje się tutaj](#bold "Bolder").
 2. Odniesienie do wyświetlanego pliku graficznego w repozytorium z wyświetlanym tekstem podpisu znajduje się tutaj:
 
-![Rekin](Images/IMG_20200401_210429.jpg "Rekin dokumentalista")
+![Rekin](images/IMG_20200401_210429.jpg "Rekin dokumentalista")
 3. Odniesienie do [mojej strony Translatorion.com znajduje się tutaj](https://translatorion.com/ "I didn't choose translator's life, translator's life chose me").
 
 ### Składnia dotycząca odniesień
 
 Składnia dotycząca odniesień — przykłady:
 1. `[**Bold** is here](#bold)`
-2. `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
+2. `![Shark](images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
 3. `[![I am a DJ](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk "I am what I play")`
 
 ## Cytowanie
@@ -258,7 +258,7 @@ Rozdział ten przedstawia różne sposoby cytowania tekstu lub kodu.
 > Oto przykład cytatu.
 >
 > > Ten cytat znajduje się [wewnątrz cytatu](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Inception before it was cool").
-> > >![wewnątrz cytatu](./Images/deeper.jpg "Głębokie")
+> > >![wewnątrz cytatu](./images/deeper.jpg "Głębokie")
 > 
 > Ten cytat ~~nie~~ *również* obejmuj*e* __podstawową składnię__ i [*odniesienie*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
 > 
@@ -268,7 +268,7 @@ Składnia:
 > This is an example of a quote.
 >
 > > This quote is [inside a quote](https://en.wikipedia.org/wiki/A_Dream_Within_a_Dream "Inception before it was cool").
-> > >![inside a quote](./Images/deeper.jpg "Deep")
+> > >![inside a quote](./images/deeper.jpg "Deep")
 > 
 > This quote ~~doesn't~~ *also* include*s* __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
 > 

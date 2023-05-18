@@ -231,15 +231,15 @@ Odniesienie do [pliku Markdown w __repozytorium__ znajduje się _tutaj_](Project
 
 ### Odniesienia do plików graficznych
 
-1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](Images/IMG_20200401_210429.jpg).
+1. Odniesienie do [pliku graficznego w **repozytorium** znajduje się *tutaj*](images/IMG_20200401_210429.jpg).
 
 2. Odniesienie do wyświetlanego pliku graficznego w repozytorium znajduje się tutaj:
    
-   ![Rekin](Images/IMG_20200401_210429.jpg)
+   ![Rekin](images/IMG_20200401_210429.jpg)
 
 3. Odniesienie do wyświetlanego pliku graficznego w repozytorium z wyświetlanym tekstem podpisu znajduje się tutaj:
    
-   ![Rekin](Images/IMG_20200401_210429.jpg "Rekin dokumentalista")
+   ![Rekin](images/IMG_20200401_210429.jpg "Rekin dokumentalista")
 
 4. Odniesienie do wyświetlanego pliku graficznego znajdującego się w internecie:
    
@@ -257,7 +257,7 @@ Odniesienie do zagnieżdżonego materiału wideo Davida Bowie w serwisie YouTube
 
 ### Składnia dotycząca odniesień
 
-Przykład składni: `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
+Przykład składni: `![Shark](images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
 
 ## Cytowanie
 

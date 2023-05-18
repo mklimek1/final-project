@@ -211,13 +211,13 @@ The link to section on [**Bold** is here](#bold).
 The link to [a Markdown file in the __repository__ is _here_](Project-Woźnikowski-2022-11-27.md).
 
 ### Links to Images
-1. The link to [an image in the **repository** is *here*](Images/IMG_20200401_210429.jpg).
+1. The link to [an image in the **repository** is *here*](images/IMG_20200401_210429.jpg).
 2. The link to a displayed image in the repository is here:
    
-   ![Shark](Images/IMG_20200401_210429.jpg)
+   ![Shark](images/IMG_20200401_210429.jpg)
 3. The link to a displayed image in the repository with a hover text is here:
    
-   ![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")
+   ![Shark](images/IMG_20200401_210429.jpg "A Technical Writer Shark")
 4. The link to a displayed image from the internet:
    
    ![Cieszyn](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg/310px-2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg "Cieszyn")
@@ -232,7 +232,7 @@ The link to an embedded David Bowie video on YouTube is here:
 
 ### Syntax for Links
 
-Syntax example: `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
+Syntax example: `![Shark](images/IMG_20200401_210429.jpg "A Technical Writer Shark")`
 
 ## Quotations
 
