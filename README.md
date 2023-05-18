@@ -23,7 +23,12 @@ Final Project
 ## *Known issues*
 
 - przecinki przed `because` — zrobię na sam koniec :)
-- rozjechane podpisy pod obrazkami — w Obsidianie wyglądało ok, ale Obsidian wiele rzeczy robi po cichu sam, co potem GitHub czy VSC inaczej rozumieją; poprawię później
+- uściślenie terminologii:
+   - `extracted` -> `imported`
+
+## *Solved issues*
+
+- ~~rozjechane podpisy pod obrazkami — w Obsidianie wyglądało ok, ale Obsidian wiele rzeczy robi po cichu sam, co potem GitHub czy VSC inaczej rozumieją; poprawię później~~
 
 ---
 

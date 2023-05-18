@@ -15,7 +15,7 @@ The test was carried out by checking the boxes in the settings. This made Trados
 
 Trados sometimes does not display tags for bold, italics, or strikethrough, but shows formatted text in the editor.
 
-![trados-editor-1](resources/images/screenshots/pasted-image-200230516233345.png)
+![trados-editor-1](resources/images/screenshots/pasted-image-20230516233345.png)
 
 *Figure 1: Trados editor with formatted text without tags*
 
