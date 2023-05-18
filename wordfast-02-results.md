@@ -15,7 +15,8 @@ The test was carried out by checking the boxes in the settings. This made Wordfa
 
 The first obstacle with the test file was that Wordfast could not open it:
 
-![error](resources/images/screenshots/Pasted-image-20230505195326.png)
+![error](resources/images/screenshots/pasted-image-20230505195326.png)
+
 *Figure 1: error message when importing the test file*
 
 After trial and error, it was discovered that the following lines were causing the error:
@@ -35,12 +36,14 @@ To continue the test, the two lines were changed into inline code and a slightly
 
 Once opened, Markdown tags are displayed as in Figure 2:
 
-![tags-1](resources/images/screenshots/Pasted-image-20230506130422.png)
+![tags-1](resources/images/screenshots/pasted-image-20230506130422.png)
+
 *Figure 2: Markdown tags displayed in the Wordfast editor*
 
 Wordfast Pro has difficulties with complex Markdown syntax. There are cases in which tags are rendered normally as asterisks or underscore signs, e.g., when they are combined together, they are between characters other than spaces, or they are in a table; see Figure 3.
 
 ![tags-2](resources/images/screenshots/pasted-image-20230515231116.png)
+
 *Figure 3: Markdown tags displayed as characters*
 
 However, this does not affect the output file. The characters are correctly processed as Markdown tags.
@@ -135,7 +138,8 @@ Basic syntax works as intended.
 ## Links
 
 Image link values are now extracted:
-![image-link-value](Pasted%20image%2020230516001100.png)
+![image-link-value](pasted-image-2020230516001100.png)
+
 *Figure 4: Image link value extracted*
 
 The rest works as intended or as above.
@@ -198,7 +202,8 @@ Basic syntax works as intended.
 
 This means it is possible to translate e.g. a table of contents; see Figure 5.
 
-![toc](Pasted%20image%2020230516002112.png)
+![toc](Pasted-image-2020230516002112.png)
+
 *Figure 5: Markdown reference syntax rendered semi-normally*
 
 The rest works as intended or as above.
