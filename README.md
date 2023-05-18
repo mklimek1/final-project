@@ -3,6 +3,10 @@ Final Project
 
 # Notatki ogólne
 
+## Notatki ogólne 1.2
+
+1. Jeśli znajdziecie jakieś terminy, styl, coś merytorycznego, co ma być do ujednolicenia **W WIELU PLIKACH** (por. [*Known issues*](#known-issues)), dopiszcie to do tych *Known issues*. Zajmię się tym na sam koniec, bo nie chcę Was obarczać znanym i nielubianym *monkey-job* :)
+
 ## Notatki ogólne 1.1
 
 1. Wariant: British English :uk:
