@@ -15,7 +15,7 @@ The test was carried out by checking the boxes in the settings. This made Trados
 
 Trados sometimes does not display tags for bold, italics, or strikethrough, but shows formatted text in the editor.
 
-![trados-editor-1](resources/images/screenshots/pasted-image%20-0230516233345.png)
+![trados-editor-1](resources/images/screenshots/pasted-image-200230516233345.png)
 
 *Figure 1: Trados editor with formatted text without tags*
 
@@ -71,7 +71,8 @@ Comments to be omitted are ignored.
 
 <kbd>&#128680;REALLY!</kbd>: The inline code does not turn off HTML in one place, but it did in another:
 
-![inline-code-with-p-tag](resources/images/screenshots/Pasted-image-20230506221617.png)
+![inline-code-with-p-tag](resources/images/screenshots/pasted-image-20230506221617.png)
+
 *Figure 3: back tick does not work with `<p>Lorem ipsum</p>`, but it does with `<p></p>`*
 
 <kbd>&#128680;REALLY!</kbd>: The text in `<summary>Unroll another section</summary>` is ignored. However, the rest of the content between the `<details></details>` tags is imported.
@@ -140,13 +141,13 @@ After trial and error, it was discovered that JavaScript code block generates th
 
 The quotation marks in the code block for "Definition" are rendered as `&bdquo;` in the output file.
 
-Apart from that, the text differs in segmentation, but the general behaviour stays as in [Translate code blocks — embedded content plain text v 1.0.0.0](#Translatecode-blocks-embedded-content-plain-text-v-1.0.0.0).
+Apart from that, the text differs in segmentation, but the general behaviour stays as in [Translate code blocks — embedded content plain text v 1.0.0.0](#Translate-code-blocks-embedded-content-plain-text-v-1.0.0.0).
 
 As a result, no further study is carried out here.
 
 # [Translate HTML blocks — embedded content plain text v 1.0.0.0](Markdown-in-CAT-test-TS_PL-05.md)
 
-It is used in combination with [Translate code blocks — embedded content plain text v 1.0.0.0](#Translatecode-blocks-embedded-content-plain-text-v-1.0.0.0), because this gave the least number errors.
+It is used in combination with [Translate code blocks — embedded content plain text v 1.0.0.0](#Translate-code-blocks-embedded-content-plain-text-v-1.0.0.0), because this gave the least number errors.
 
 # Results
 

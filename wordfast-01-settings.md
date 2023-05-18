@@ -3,7 +3,11 @@ Wordfast Pro 8
 
 # Settings
 
+The window with Markdown filters in Wordfast Pro 8 looks like this:
+
 ![wordfast-settings](./resources/images/screenshots/pasted-image-20230518004130.png)
+
+*Figure 1: default Markdown filters in Wordfast Pro 8*
 
 Wordfast Pro 8 has the following filter settings for Markdown:
 1. Soft Line Break Type:

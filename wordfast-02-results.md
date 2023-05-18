@@ -138,7 +138,7 @@ Basic syntax works as intended.
 ## Links
 
 Image link values are now extracted:
-![image-link-value](pasted-image-2020230516001100.png)
+![image-link-value](resources/images/screenshots/pasted-image-20230516001100.png)
 
 *Figure 4: Image link value extracted*
 
@@ -202,7 +202,7 @@ Basic syntax works as intended.
 
 This means it is possible to translate e.g. a table of contents; see Figure 5.
 
-![toc](Pasted-image-2020230516002112.png)
+![toc](resources/images/screenshots/pasted-image-20230516002112.png)
 
 *Figure 5: Markdown reference syntax rendered semi-normally*
 
