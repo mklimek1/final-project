@@ -178,7 +178,7 @@ Embedded HTML is imported and can be translated.
 
 This setting generates the following error:
 
-![trados-error-3](resources/images/screenshots/pasted-image-20230508173616.png)
+![trados-error-3](./resources/images/screenshots/pasted-image-20230508173616.png)
 
 *Figure 5: Import error in Trados — embedded content spreadsheetML v. 1*
 

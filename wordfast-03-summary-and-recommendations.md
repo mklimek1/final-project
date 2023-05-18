@@ -37,7 +37,7 @@ This section contains recommendations for technical writers (or generally, autho
 - Tick all settings for best performance, even if it means pasting links
 - Contact the technical writer if characters are not used in a standard way in the source language
 - Make sure you do not edit something that may be a tag
-- Carefully check the output file to ensure that something is not missing, especially in tables
+- Carefully check the output file for any missing elements, especially in tables
 
 ---
 

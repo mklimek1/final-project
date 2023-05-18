@@ -39,7 +39,7 @@ This section contains recommendations for technical writers (or generally, autho
 - Make sure you do not edit something that may be a tag when you translate the content of the code block
 - Contact the technical writer if characters are not <!-- aren't --> used in a standard way in the source language
 - Be aware that some content between different HTML tags may or may not be imported into Trados and, as a result, translated
-- Carefully check the output file to ensure that something is not missing or placed incorrectly, e.g., hover text
+- Carefully check the output file for any missing elements or elements placed incorrectly, e.g., hover text
 
 
 ---
