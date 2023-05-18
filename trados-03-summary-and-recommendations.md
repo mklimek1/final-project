@@ -35,8 +35,8 @@ This section contains recommendations for technical writers (or generally, autho
 ## Recommendations for translators
 
 - Adapt the settings to your needs — if the embedded HTML does not contain content to be translated, untick the `Translate HTML block` box
-	- This way you do not <!-- don't? --> risk accidental editing of the HTML code
-- Make sure you don't edit something that may be a tag when you translate the content of the code block
+	- This way you do not risk accidental editing of the HTML code
+- Make sure you do not edit something that may be a tag when you translate the content of the code block
 - Contact the technical writer if characters are not <!-- aren't --> used in a standard way in the source language
 - Be aware that some content between different HTML tags may or may not be imported into Trados and, as a result, translated
 - Carefully check the output file to ensure that something is not missing or placed incorrectly, e.g., hover text
