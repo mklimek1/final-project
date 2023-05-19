@@ -91,5 +91,7 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 
 # Pomysły na rozbudowanie
 
+<!-- To już bardziej notatnik dla mnie, by mieć to w jednym, głównym miejscu, a nie rozrzucone po 3 różnych miejscach ;) -->
+
 - Wymyślenie przypadków użycia: który CAT lepiej/gorzej
    - np. Trados będzie słaby do baz wiedzy, a Wordfast zadziała jak marzenie
