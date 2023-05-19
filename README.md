@@ -78,7 +78,8 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 3. [phrase-02-results.md](phrase-02-results.md)
 4. [phrase-03-summary-and-recommendations.md](phrase-03-summary-and-recommendations.md)
 5. [top-comparison.md](top-comparison.md)
-6. [top-conclusion.md](top-conclusion.md)
+6. [top-general-rec.md](top-general-rec.md)
+7. [top-conclusion.md](top-conclusion.md)
 
 ## Stare notatki
 
@@ -95,6 +96,10 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 *Dzięki, przerzuciłem wytyczne do notatek :) — P*
 
 # Notatki @Monika
+
+## Co już możesz sprawdzać
+
+*Wszystko* z wyjątkiem tych 7 plików wspomnianych wyżej u [Justyny](#ostatki-do-sprawdzenia).
 
 1. Skup się proszę na tym, czy część dotycząca CAT-ów i problemów Markdowna w CAT-ach jest zrozumiała dla osób nie mających z tym do czynienia.
 2. Jeśli masz jakieś pomysły dotyczące objaśnienia Markdowna laikom — śmiało komentuj!
