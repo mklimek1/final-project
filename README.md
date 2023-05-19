@@ -52,6 +52,7 @@ Lekcja z zajęć z Tomkiem ;)
 ### Ewentualnie potencjalnie możliwe
 
 - dodanie *backticków* do nazw ustawień
+- dodanie mini spisów treści w plikach *results* oraz w innych plikach o rozbudowanej treści
 
 ## *Solved issues*
 
