@@ -1,4 +1,4 @@
 Final Project
 ====
 
-![Roll](./Images/nevergonna.gif "Never gonna give you up!")
+![Roll](images/nevergonna.gif "Never gonna give you up!")
