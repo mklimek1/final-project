@@ -86,3 +86,10 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 2. Jeśli masz jakieś pomysły dotyczące objaśnienia Markdowna laikom — śmiało komentuj!
 
 # Notatki @Marta
+
+---
+
+# Pomysły na rozbudowanie
+
+- Wymyślenie przypadków użycia: który CAT lepiej/gorzej
+   - np. Trados będzie słaby do baz wiedzy, a Wordfast zadziała jak marzenie
