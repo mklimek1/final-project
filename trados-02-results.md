@@ -216,7 +216,9 @@ The rest works as intended or as above.
 
 ## HTML and other tags
 
-HTML and other tags work as intended or as above.
+HTML tags are imported as tags.
+
+Te rest works as intended or as above.
 
 ---
 

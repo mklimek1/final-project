@@ -9,13 +9,14 @@ In general, Trados Studio 2022 is a good tool to translate Markdown files. Howev
 	- hover text
 - Code block can be translated
 - Comments `<!-- -->` can be translated
-- Imports the content of embedded HTML code, but only in specific settings
+- Imports the content of embedded HTML code, but only in `Html Embedded Content 5 2.0.0.0`
 
 ## Disadvantages
 
 - Bizarre behaviour of hover text between different references
 - Markdown reference in links cannot be translated, which makes it impossible to translate a table of contents or all other references to headers in Markdown files
 - Inline code is ignored and cannot be translated
+- HTML in the `Embedded Content Plain Text v 1.0.0.0` filter is rendered normally
 
 # Recommendations for translation of Markdown files in Trados Studio
 

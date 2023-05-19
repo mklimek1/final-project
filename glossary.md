@@ -17,10 +17,11 @@ A program that helps translators translate.
 
 The part of a [**CAT**](#CAT) which displays [**segments**] and where translation is entered.
 
-
 # H
 
 ## HTML
+
+***H**yper**T**ext [**M**arkup **L**anguage*](#markup-language); a formatting system for displaying material retrieved over the Internet.
 
 # I
 
@@ -80,10 +81,14 @@ A database that stores [**segments**](#segment) with their translated counterpar
 
 ## URL
 
-
+ ***U**niform **R**esource **L**ocator*; a string of numbers, letters, and symbols that is used to find a resource on a network.
 
 # W
 
 ## Wordfast
 
 A [**CAT**](#cat) that started first as an add-on to Microsoft Word (now called Wordfast Classic). Later, it was developed into a desktop application, called Wordfast Pro.
+
+---
+
+Go to section: [*How do CATs process Markdown files?*](index.md)

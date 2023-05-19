@@ -22,7 +22,7 @@ Here are some details about the project:
 
 **Software — Primary**: [Phrase](https://phrase.com/), [Trados Studio](https://www.trados.com/products/trados-studio/whats-new-studio-2022.html), [Wordfast Pro](https://www.wordfast.com/products/wordfast_pro)
 
-**Software — Tools**: [GitHub Desktop](https://desktop.github.com/), [Obsidian](https://obsidian.md/), [Snip & Sketch](https://en.wikipedia.org/wiki/Snipping_Tool), [Total Commander](https://www.ghisler.com/), [Visual Studio Code](https://code.visualstudio.com/),
+**Software — Tools**: [GitHub Desktop](https://desktop.github.com/), [Microsoft Excel](https://www.microsoft.com/pl-pl/microsoft-365/excel) [Obsidian](https://obsidian.md/), [Snip & Sketch](https://en.wikipedia.org/wiki/Snipping_Tool), [Table to Markdown](https://tabletomarkdown.com), [Total Commander](https://www.ghisler.com/), [Visual Studio Code](https://code.visualstudio.com/)
 
 **Supervisor**: [Marta Bartnicka](https://www.linkedin.com/in/marta-bartnicka-713969/)
 
@@ -38,12 +38,13 @@ E.g.
 
 # References
 
-1. ["Markup language", Britannica](https://www.britannica.com/technology/markup-language)
-2. [Collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
-3. [Daring Fireball](https://daringfireball.net/projects/markdown/)
-4. [Keyboard glyphs](https://meta.stackexchange.com/questions/5527/keyboard-glyphs)
-5. [Markdownguide.org](https://www.markdownguide.org/)
-6. [Tabor, Jared "CAT tool use by translators: what are they using?", Proz.com, access 2023-05-16](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using)
+1. ["HTML, Britannica"](https://www.britannica.com/technology/HTML)
+2. ["Markup language", Britannica](https://www.britannica.com/technology/markup-language)
+3. [Collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
+4. [Daring Fireball](https://daringfireball.net/projects/markdown/)
+5. [Keyboard glyphs](https://meta.stackexchange.com/questions/5527/keyboard-glyphs)
+6. [Markdownguide.org](https://www.markdownguide.org/)
+7. [Tabor, Jared "CAT tool use by translators: what are they using?", Proz.com, access 2023-05-16](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using)
 
 # Author
 
@@ -55,7 +56,7 @@ Useful links and contact:
 - [Portfolio](https://pj-woz.github.io/Portfolio/)
 - [Translatorion — Website](https://translatorion.com/language/en/translatorion/)
 - [Translatorion — Blog](https://translatorion.com/language/en/blog-en/)
-- Email: pawel@translatorion.com
+- pawel@translatorion.com
 
 ---
 

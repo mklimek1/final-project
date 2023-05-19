@@ -48,10 +48,10 @@ You can read this study as a whole or just the sections that are of interest to 
 	2. [What is a CAT?](ref-cat.md)
 	3. [Why is Markdown difficult for CATs?](ref-why-md-difficult.md)
 3. [The test file](ref-test-file.md)
-4. Phrase
-	1. Settings
-	2. Results
-	3. Summary and recommendations
+4. [Phrase](phrase-00-overview.md)
+	1. [Settings](phrase-01-settings.md)
+	2. [Results](phrase-02-results.md)
+	3. [Summary and recommendations](phrase-03-summary-and-recommendations.md)
 5. [Trados](trados-00-overview.md)
 	1. [Settings](trados-01-settings.md)
 	2. [Results](trados-02-results.md)
@@ -60,9 +60,9 @@ You can read this study as a whole or just the sections that are of interest to 
 	1. [Settings](wordfast-01-settings.md)
 	2. [Results](wordfast-02-results.md)
 	3. [Summary and recommendations](wordfast-03-summary-and-recommendations.md)
-7. Comparison
-8. General recommendations
-9. Conclusion
+7. [Comparison](top-comparison.md)
+8. [General recommendations](top-general-rec.md)
+9. [Conclusion](top-conclusion.md)
 10. [Glossary](glossary.md)
 11. [About](about.md)
 
