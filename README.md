@@ -71,6 +71,17 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 
 # Notatki @Justyna
 
+## **OSTATKI DO SPRAWDZENIA**
+
+1. [phrase-00-overview.md](phrase-00-overview.md)
+2. [phrase-01-settings.md](phrase-01-settings.md)
+3. [phrase-02-results.md](phrase-02-results.md)
+4. [phrase-03-summary-and-recommendations.md](phrase-03-summary-and-recommendations.md)
+5. [top-comparison.md](top-comparison.md)
+6. [top-conclusion.md](top-conclusion.md)
+
+## Stare notatki
+
 1. ~~Część linków jest wstawiona do plików, których nie ma w repozytorium, bo je jeszcze piszę :) Dlatego linki do Phrase czy Tradosa nie zadziałają. Jest to wbrew pozorom "works as intended" 😅~~
 2. Skup się proszę na tym, czy część dotycząca Markdowna i problemów Markdowna w CAT-ach jest zrozumiała dla osób nie mających z tym do czynienia.
 3. Jeśli masz jakieś pomysły dotyczące objaśnienia CAT-ów laikom — śmiało komentuj!
