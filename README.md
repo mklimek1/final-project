@@ -8,6 +8,8 @@ Final Project
 1. Jeśli znajdziecie jakieś terminy, styl, coś merytorycznego, co ma być do ujednolicenia **W WIELU PLIKACH** (por. [*Known issues*](#known-issues)), dopiszcie to do tych *Known issues*. Zajmię się tym na sam koniec, bo nie chcę Was obarczać znanym i nielubianym *monkey-job* :)
 2. Jest to wspomniane bezpośrednio w plikach, ale wrzucam uwagę też tu: niektóre formatowanie zastosowane w *the test file* **nie działa** w podglądzie GitHuba.
 3. Jeśli dalej jakieś ilustracje lub inne odniesienia do sekcji nie działają, dajcie znać. Obsidian jest za bardzo *user-friendly* i wyręcza w wielu kwestiach, co potem tworzy problemy w GitHubie.
+4. Jeśli coś trzeba dodać do glosariusza, wpiszcie hasło, ja to potem uzupełnię.
+5. W [*Comparison*](top-comparison.md) jest zmiana biegów w stylistyce w sekcji [*Discussion of the results*](top-comparison.md#Discussion-of-the-results) — to z rozmysłem; to jest dyskusja, przedstawienie opinii, więc napisałem to bardziej po ludzku, a nie naukowym raportem
 
 ## Notatki ogólne 1.1
 
@@ -48,6 +50,7 @@ Lekcja z zajęć z Tomkiem ;)
 - przecinki przed `because` — zrobię na sam koniec :)
 - zmienić nagłówki, zwłaszcza te z `—`, bo się psują odniesienia wewnętrzne
 - dać wycofanie do poprzedniej sekcji (zależne od tego, jak będzie wyglądać po publikacji)
+- upiększacze jak obrazki w niektórych sekcjach — do wstawienia na etapie publikacji
 
 ### Ewentualnie potencjalnie możliwe
 
@@ -68,7 +71,7 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 
 # Notatki @Justyna
 
-1. Część linków jest wstawiona do plików, których nie ma w repozytorium, bo je jeszcze piszę :) Dlatego linki do Phrase czy Tradosa nie zadziałają. Jest to wbrew pozorom "works as intended" 😅
+1. ~~Część linków jest wstawiona do plików, których nie ma w repozytorium, bo je jeszcze piszę :) Dlatego linki do Phrase czy Tradosa nie zadziałają. Jest to wbrew pozorom "works as intended" 😅~~
 2. Skup się proszę na tym, czy część dotycząca Markdowna i problemów Markdowna w CAT-ach jest zrozumiała dla osób nie mających z tym do czynienia.
 3. Jeśli masz jakieś pomysły dotyczące objaśnienia CAT-ów laikom — śmiało komentuj!
 
@@ -95,3 +98,6 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 
 - Wymyślenie przypadków użycia: który CAT lepiej/gorzej
    - np. Trados będzie słaby do baz wiedzy, a Wordfast zadziała jak marzenie
+- uporządkowanie test file
+- Przetestowanie w innych czytnikach Markdown
+- kolejne CAT-y...
