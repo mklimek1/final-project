@@ -48,8 +48,11 @@ In this project, Wordfast Pro 8 ver. 8.1.0 was used.
 These CATs import Markdown files. However, there is no one way of importing a Markdown file and CATs do it differently.
 
 ---
+
 Next section: [*Why is Markdown difficult in translation?*](ref-why-md-difficult.md)
+
+[*Skip to the comparison of the three CATs*](top-comparison.md)
 
 ---
 
-[*Back to top*](#what-is-a-cat&#63;)
+[Back to top](#what-is-a-cat&#63;)

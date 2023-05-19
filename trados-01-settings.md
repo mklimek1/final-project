@@ -10,15 +10,15 @@ The window with Markdown filters in Trados Studio 2022 looks like this:
 *Figure 1: default Markdown filters in Trados Studio 2022*
 
 Trados Studio 2022 has the following filter settings for Markdown:
-1. Handle line breaks as inline tags
-2. Translate code blocks with the following embedded content processors (only one can be selected):
-	1. Embedded Content Plain Text v 1.0.0.0
-	2. Embedded Content SpreadsheetML v. 1
-	3. Html Embedded Content 5 2.0.0.0
-3. Translate html blocks with the following embedded content processors (only one can be selected):
-	1. Embedded Content Plain Text v 1.0.0.0
-	2. Embedded Content SpreadsheetML v. 1
-	3. Html Embedded Content 5 2.0.0.0
+1. `Handle line breaks as inline tags`
+2. `Translate code blocks` with the following embedded content processors (only one can be selected):
+	1. `Embedded Content Plain Text v 1.0.0.0`
+	2. `Embedded Content SpreadsheetML v. 1`
+	3. `Html Embedded Content 5 2.0.0.0`
+3. `Translate html blocks` with the following embedded content processors (only one can be selected):
+	1. `Embedded Content Plain Text v 1.0.0.0`
+	2. `Embedded Content SpreadsheetML v. 1`
+	3. `Html Embedded Content 5 2.0.0.0`
 
 All of these are unchecked in default settings.
 

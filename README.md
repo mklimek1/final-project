@@ -30,13 +30,27 @@ Final Project
 
 Tutaj wrzucamy ogólne problemy, które wymagają szerszej edycji lub redakcji.
 
+Może to jest i *overkill*, ale stwiedziłem, że pogrupuję to wg wagi zmiany.
+
+Lekcja z zajęc z Tomkiem ;)
+
 ## *Known issues*
 
-- przecinki przed `because` — zrobię na sam koniec :)
+### Konieczne
+
 - uściślenie terminologii:
    - `extracted` -> `imported`
    - `target` -> `output file`
    - `output` -> `output file`
+
+### Wypadałoby
+
+- przecinki przed `because` — zrobię na sam koniec :)
+- zmienić nagłówki, zwłaszcza te z `—`, bo się psują odniesienia wewnętrzne
+
+### Ewentualnie potencjalnie możliwe
+
+- dodanie *backticków* do nazw ustawień
 
 ## *Solved issues*
 

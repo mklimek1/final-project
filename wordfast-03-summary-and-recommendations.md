@@ -12,7 +12,7 @@ In general, Wordfast Pro 8 is a good tool to translate Markdown files despite th
 
 - Inline code is ignored and cannot be translated
 - Code block is ignored and cannot be translated
-- Code comments are ignored and cannot be translated
+- Comments `<!-- -->` are ignored and cannot be translated
 - Bizarre behaviour of tables
 - Very complex combinations of Markdown tags or with HTML tags may cause problems or make the Markdown tags rendered normally; however, in the case of HTML tags this has more to do with the general behaviour between HTML and Markdown tags
 
@@ -23,13 +23,14 @@ This section contains recommendations for technical writers (or generally, autho
 ## Recommendations for technical writers
 
 - Avoid combining bold, italic, and strikethrough — some combinations may cause importing errors
-- Instruct the translator about basic Markdown syntax, because some tags can be rendered normally
+- Inform the translator about basic Markdown syntax, because some tags can be rendered normally
 	- If references are translated, instruct the translator how to translate references and what the syntax is: one hash symbol, no space between the hash symbol and the first word, small letters, and minus symbol instead of spaces; e.g. the reference to this section should be `#recommendations-for-technical writers`
-- If inline code or code block are used and if they must be translated, instruct the translator about:
-	- How to open a Markdown file
-	- The syntax of inline code or code block
+- If inline code, code block, or `<!-- -->` comments are to be translated, instruct the translator about:
+	- How to open the Markdown file
+	- The syntax
 	- What is to be translated and what must not be edited
-- If extended Markdown syntax or HTML tags, instruct the translator that there may be characters that are not used in a standard way in the source language and tell the translator what to do with them
+	- Alternatively, break the syntax, so the comment is imported into the CAT, and fix it yourself in the output file
+- If extended Markdown syntax or HTML tags, inform the translator that there may be characters that are not used in a standard way in the source language and tell the translator what to do with them
 - Encourage the translator to report any characters that are not used in a standard way in the source language
 
 ## Recommendations for translators

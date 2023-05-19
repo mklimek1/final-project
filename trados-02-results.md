@@ -223,4 +223,4 @@ HTML and other tags work as intended or as above.
 Next section: [*Trados Studio 2022 — summary and recommendations*](trados-03-summary-and-recommendations.md)
 
 ---
-[Back to top](#trados-results.md)
+[Back to top](#trados-results)

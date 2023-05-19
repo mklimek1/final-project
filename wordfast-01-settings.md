@@ -10,19 +10,19 @@ The window with Markdown filters in Wordfast Pro 8 looks like this:
 *Figure 1: default Markdown filters in Wordfast Pro 8*
 
 Wordfast Pro 8 has the following filter settings for Markdown:
-1. Soft Line Break Type:
-	1. tag
-	2. break
-	3. none
-2. Extract table headers
-3. Extract image alt text
-4. Extract image link value
-5. Extract image title
-6. Extract href URL title
+1. `Soft Line Break Type:``
+	1. `tag`
+	2. `break`
+	3. `none`
+2. `Extract table headers`
+3. `Extract image alt text`
+4. `Extract image link value`
+5. `Extract image title`
+6. `Extract href URL title`
 
 Default settings:
-1. Soft line break type — tag
-2. Extract table headers
+1. `Soft line break type — tag`
+2. `Extract table headers`
 
 The default settings were used as the basic settings in the study. Then, further settings were added in the order from top to bottom.
 

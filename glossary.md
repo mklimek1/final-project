@@ -76,6 +76,12 @@ The oldest [**CAT**](#cat) software and often regarded as an industry standard. 
 
 A database that stores [**segments**](#segment) with their translated counterparts.
 
+# U
+
+## URL
+
+
+
 # W
 
 ## Wordfast
