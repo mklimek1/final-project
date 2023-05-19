@@ -18,7 +18,7 @@ The test was carried out by checking the boxes in the settings. This made Phrase
 
 Phrase editor shows the majority of Markdown formatting only as tags:
 
-![phrase-tags](pasted-image-20230518214828.png)
+![phrase-tags](resources/images/screenshots/pasted-image-20230518214828.png)
 
 *Figure 1: tags in Phrase*
 
