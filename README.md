@@ -47,6 +47,7 @@ Lekcja z zajęc z Tomkiem ;)
 
 - przecinki przed `because` — zrobię na sam koniec :)
 - zmienić nagłówki, zwłaszcza te z `—`, bo się psują odniesienia wewnętrzne
+- dać wycofanie do poprzedniej sekcji (zależne od tego, jak będzie wyglądać po publikacji)
 
 ### Ewentualnie potencjalnie możliwe
 
