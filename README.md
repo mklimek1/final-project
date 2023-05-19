@@ -32,7 +32,7 @@ Tutaj wrzucamy ogólne problemy, które wymagają szerszej edycji lub redakcji.
 
 Może to jest i *overkill*, ale stwiedziłem, że pogrupuję to wg wagi zmiany.
 
-Lekcja z zajęc z Tomkiem ;)
+Lekcja z zajęć z Tomkiem ;)
 
 ## *Known issues*
 
