@@ -24,7 +24,7 @@ Phrase has the following filter settings for Markdown:
 9. `Non-translatable blocks` (requires a list of items)
 10. `Don't escape characters` (requires a list of items)
 
-The settings that require a list of items are not covered in this project. The reason is that there are many options and fringe cases that a user may want to configure. This is beyond the scope of the project. The project focuses only on the filters available in the software.
+The settings that require a list of items are not covered in this project. The reason is that there are many options and fringe cases that a user may want to configure. This is beyond the scope of the project. The project focuses only on the filters already configured in the software.
 
 The default settings were used as the basic settings in the study. First, the Markdown flavours were checked. Then, further settings were added in the order from top to bottom.
 

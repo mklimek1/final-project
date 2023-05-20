@@ -16,9 +16,9 @@ However, the usability index is only a simple measure. The results are also inte
 ## Symbols and their meanings
 
 There are three symbols used in the table:
-- `✔️YES` means that given feature works in all tested settings
-- `⚠️️DEPENDS` means that given feature works in some settings. It also means that it may cause problems when importing the file or show issues in the output file
-- `❌NO` means that given feature does not work in any setting
+- `✔️YES` means that a given feature works in all tested settings
+- `⚠️️DEPENDS` means that a given feature works in some settings. It also means that it may cause problems when importing the file or show issues in the output file
+- `❌NO` means that a given feature does not work in any setting
 
 
 # Comparison
@@ -85,7 +85,7 @@ As can be seen, Trados and Wordfast are tied for the first place on `✔️YES`.
 
 Phrase is on the first place on `⚠️️DEPENDS`.
 
-Based on the data, Phrase the most usable CAT out of the three. However, only by a small margin. Trados and Wordfast are placed second.
+Based on the data, Phrase the most usable CAT out of the three. However, only by a small margin. Trados and Wordfast are tied for second.
 
 # Discussion of the results
 
@@ -97,25 +97,25 @@ On the down side, Phrase requires adequate settings for even the basic syntax to
 
 On the upside, Phrase has some advantages over Trados and Wordfast. It has settings that can be configured by the user to adequately capture what elements need additional filtering. Also, it is the only CAT that supports translation of inline code and code blocks. These settings can be also turned off, so if code does not have to be translated, it is not visible in the editor. This protects against accidental edits.
 
-**Verdict**: good solution, covers almost everything, a lot can be configured by the user, but this configuration is a disadvantage for less knowledgeable users.
+**Verdict**: good solution, covers almost everything, a lot can be configured by the user. However, the need for proper configuration is a disadvantage for less knowledgeable translators.
 
 ## [Trados Studio 2022](trados-00-overview.md)
 
-As an industry-standard software, Trados is a solid solution for translating Markdown files.
+As an industry standard software, Trados is a solid solution for translating Markdown files.
 
 Even though it does not have as many settings as Phrase or even Wordfast, it works well with many features on basic filters. However, some settings create errors, which may cause confusion and delay[.](resources/images/confusion-and-delay.jpg)
 
 The major disadvantage of Trados is the inability to translate inline code and Markdown reference. Just like Phrase, lack of Markdown reference can be a serious issue for knowledge bases created in Markdown. No support for footnotes only reinforces this drawback. Also, unpredictable behaviour of hover text is an issue. Finally, if HTML is filtered with the `Embedded Content Plain Text v 1.0.0.0` setting, it is rendered normally, with all the code. This increases the risk of accidental edits.
 
-On the upside, Trados is the only CAT in which comments can be translated, which may be useful in certain situations. Also, once configured, it works well with vast majority of tested features.
+On the upside, Trados is the only CAT in which comments can be translated and this may be useful in certain situations. Also, once configured, it works well with vast majority of tested features.
 
-**Verdict**: good solution, an all-rounder that does not require much configuration. However, some configurations do not work, cause errors, or are not fail-proof, which may be problematic for users.
+**Verdict**: good solution, an all-rounder that does not require much configuration. However, some configurations do not work, cause errors, or are not fail-proof, which may be problematic for translators.
 
 ## [Wordfast Pro 8](wordfast-00-overview.md)
 
 As a [second-to-Trados](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using), Wordfast is also a solid solution for translating Markdown files. However, the overall impressions are mixed.
 
-On the downside, Wordfast behaves bizarrely. It has generated an error caused by a combination of different formatting tags. Tables work poorly in some settings. Also, even though it provides a lot of settings, it is only an illusion of choice. The majority of them would be always ticked as there are not many cases in which it would be advisable not to extract table headers, image title, or alt text. The biggest drawbacks of Wordfast is that comments, inline code, and code blocks cannot be translated.
+On the downside, Wordfast behaves bizarrely. It has generated an error caused by a combination of different formatting tags. Tables work poorly in some settings. Also, even though it provides a lot of settings, it is only an illusion of choice. The majority of them would be always ticked as there are not many cases in which it would be advisable not to extract table headers, image title, or alt text. The biggest drawback of Wordfast is that comments, inline code, and code blocks cannot be translated.
 
 On the upside, the formatting error was caused by a fringe case that most likely will not occur in standard writing. Moreover, it can be reformulated to work. Also, Wordfast is the only CAT that supports translation of Markdown references, which makes it a perfect tool for e.g. knowledge bases because it also supports footnotes. Lastly, Wordfast reads embedded HTML without any issues, whether it is embedded fully between `<html></html>` tags or any other tags like `<sub></sub>`.
 
@@ -125,13 +125,15 @@ On the upside, the formatting error was caused by a fringe case that most likely
 
 All three CATs come close and there is no single best solution. All three are ahead of the others in some respects, while stunningly fail with regard to other features. Much depends on what needs to be translated.
 
-Phrase is be a good solution for documentation with simple structure without references. It is also good for situations that require user-defined settings. It is definitely the best when it comes to code with translatable content.
+Phrase is a good solution for documentation with simple structure without references. It is also good for situations that require user-defined settings. It is definitely the best when it comes to code with translatable content.
 
 Trados is also a good solution and is very similar to Phrase. However, it offers less configuration, choosing appropriate settings is crucial, and it does not support inline code and references.
 
-Wordfast is best for texts that have a lot of references and which do not require code to be translated. Once all settings are checked, it can tackle many cases.
+Wordfast is best for texts that have a lot of references and which do not require code to be translated. Once all settings are checked, it can tackle most cases.
 
-However, successful translation of Markdown projects in CATs requires special considerations, which are covered in the next section.
+If the Markdown file contains very complex features and many elements like comments, inline code, code block, or Markdown references, a good solution would be to use several CATs. Phrase and Wordfast would cover almost all crucial features. However, all three would be needed to translate the test file completely.
+
+On a general level, successful translation of Markdown projects in CATs requires special considerations, which are covered in the next section.
 
 ---
 

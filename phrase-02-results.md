@@ -26,7 +26,7 @@ Links to websites are ignored and not displayed as tags. However, the alt text f
 
 There is often a discrepancy between what is seen in the editor and what actually works or does not work in the output file.
 
-# [Settings — Plain](Markdown-in-CAT-test-PH_PL-01.md)
+# [Plain](Markdown-in-CAT-test-PH_PL-01.md)
 
 <!-- No generalnie tutaj trochę miałem polew, jak zobaczyłem plik docelowy :) IMO mogliby to schować albo przerobić, bo nawet prosta składnia ledwo działa :exploding_head: -->
 
@@ -73,7 +73,7 @@ Składnia: \`\`\`
 
 The rest works as intended or as above.
 
-<kbd>&#128680;REALLY!</kbd>: This means inline code works too and its content can be translated.
+<kbd>&#128680;REALLY!</kbd>: Inline code works and its content can be translated.
 
 ## Extended syntax
 
@@ -82,9 +82,9 @@ Table syntax is rendered normally:
 ![table-error](resources/images/screenshots/pasted-image-20230518223042.png)
 *Figure 3: table syntax in Phrase editor*
 
-As a result, table does not work in the output file.
+As a result, the table does not work in the output file.
 
-Task list does not work in the output file because it uses the syntax of an unordered list.
+The task list does not work in the output file because it uses the syntax of an unordered list.
 
 Emoji is rendered normally.
 
