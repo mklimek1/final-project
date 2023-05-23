@@ -87,6 +87,8 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 2. Skup się proszę na tym, czy część dotycząca Markdowna i problemów Markdowna w CAT-ach jest zrozumiała dla osób nie mających z tym do czynienia.
 3. Jeśli masz jakieś pomysły dotyczące objaśnienia CAT-ów laikom — śmiało komentuj!
 
+**@Paweł 3: Chyba to już wszystko. Czytając część teoretyczną brakowało mi charakteru instrukcji, ale widzę, że on się pojawia potem w uwagach dla tłumaczy i technical writerów. Dobrze się to czyta, ja przynajmniej rozumiem o co "kaman" i myślę, że dałabym radę, gdybym dostała zlecenie przetłumaczenia pliku .md w którymś z "kotów". Jak miałam jeszcze jakieś uwagi, dałam je w poszczególnych plikach. Daj znać, czy czegoś jeszcze będziesz ode mnie potrzebował. :-)**
+
 **@Paweł: Poprawiłam, wg mnie dobrze się czyta i jest to zrozumiałe, napisane w przystępny sposób, dałam miejscami sugestie od siebie plus komentarze - do rozważenia, nie muszą być uwzględnione ;-)**
 
 ~~**Do rozważenia:**~~
