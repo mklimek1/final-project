@@ -10,17 +10,17 @@ The results for individual settings are grouped according to the sections in the
 
 The test was carried out by checking the boxes in the settings. This made Phrase import more features and allowed more editing. However, if a feature started working, this is noted in the relevant section.
 
-**IMPORTANT**:  Not every Markdown formatting, e.g. `^superscript^`, works in GitHub preview. The fact that a feature does not work in GitHub preview does not mean it is caused by the incorrect output from the CAT.
+**IMPORTANT**:  Not every Markdown formatting, e.g., `^superscript^`, works in GitHub preview. The fact that a feature does not work in GitHub preview does not mean it is caused by the incorrect output from the CAT.
 
 <!-- REUSE COMP END -->
 
 # General results
 
-Phrase editor shows the majority of Markdown formatting only as tags:
+The Phrase editor shows the majority of Markdown formatting only as tags:
 
 ![phrase-tags](resources/images/screenshots/pasted-image-20230518214828.png)
 
-*Figure 1: tags in Phrase*
+*Figure 1: Tags in Phrase* <!-- I would use capital first letters for words coming after a colon -->
 
 Links to websites are ignored and not displayed as tags. However, the alt text for URLs is tagged.
 
@@ -136,7 +136,7 @@ The rest works as intended or as above.
 
 HTML and other tags work as intended or as above.
 
-# [GitHub flavored Markdown](Markdown-in-CAT-test-PH_PL-03.md)
+# [GitHub flavoured Markdown](Markdown-in-CAT-test-PH_PL-03.md)
 
 ## Basic syntax
 
