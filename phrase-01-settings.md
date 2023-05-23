@@ -5,7 +5,7 @@ Phrase
 
 The window with Markdown filters in Phrase looks like this: <!-- Image broken -->
 
-![phrase-filter-settings](./resources/images/screenshots/Pasted-image-20230508233111.png)
+![phrase-filter-settings](/resources/images/screenshots/pasted-image-20230508233111.png)
 
 *Figure 1: Default Markdown filters in Phrase*
 
