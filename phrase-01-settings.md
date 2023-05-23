@@ -3,11 +3,11 @@ Phrase
 
 # Settings
 
-The window with Markdown filters in Phrase looks like this:
+The window with Markdown filters in Phrase looks like this: <!-- Image broken -->
 
 ![phrase-filter-settings](./resources/images/screenshots/Pasted-image-20230508233111.png)
 
-*Figure 1: default Markdown filters in Phrase*
+*Figure 1: Default Markdown filters in Phrase*
 
 Phrase has the following filter settings for Markdown:
 1. `Flavor` (only one can be selected):
