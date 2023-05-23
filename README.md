@@ -100,10 +100,6 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 
 # Notatki @Monika
 
-## Co już możesz sprawdzać
-
-*Wszystko* z wyjątkiem tych 7 plików wspomnianych wyżej u [Justyny](#ostatki-do-sprawdzenia).
-
 1. Skup się proszę na tym, czy część dotycząca CAT-ów i problemów Markdowna w CAT-ach jest zrozumiała dla osób nie mających z tym do czynienia.
 2. Jeśli masz jakieś pomysły dotyczące objaśnienia Markdowna laikom — śmiało komentuj!
 
