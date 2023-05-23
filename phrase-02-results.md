@@ -36,7 +36,7 @@ There is often a discrepancy between what is seen in the editor and what actuall
 
 ![phrase-strikethrough](resources/images/screenshots/pasted-image-20230518220441.png)
 
-*Figure 2: strikethrough rendered normally*
+*Figure 2: Strikethrough rendered normally*
 
 <kbd>&#128680;REALLY!</kbd>: Ordered lists do not work. Backslash is entered in the output file which turns off the list:
 ```
@@ -80,7 +80,7 @@ The rest works as intended or as above.
 Table syntax is rendered normally:
 
 ![table-error](resources/images/screenshots/pasted-image-20230518223042.png)
-*Figure 3: table syntax in Phrase editor*
+*Figure 3: Table syntax in Phrase editor*
 
 As a result, the table does not work in the output file.
 
