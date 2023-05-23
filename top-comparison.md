@@ -66,7 +66,7 @@ There are three symbols used in the table:
 | 39  | Combination of tags and Markdown syntax | ✔️YES     | ✔️YES     | ✔️YES     |
 | 40  | Pure HTML syntax with JavaScript        | ✔️YES     | ⚠️️DEPENDS | ✔️YES     |
 
-*Table 1: comparison of features and the CATs *
+*Table 1: Comparison of features and the CATs *
 
 # Usability index
 
@@ -79,13 +79,13 @@ The table below shows the summary results for `✔️YES`, `⚠️️DEPENDS`, a
 | ⚠️DEPENDS | 17     | 13     | 13       |
 | ✔YES + ⚠️DEPENDS | **38**     | 37     | 37       |
 
-*Table 2: summary of the results*
+*Table 2: Summary of the results*
 
 As can be seen, Trados and Wordfast are tied for the first place on `✔️YES`.
 
 Phrase is on the first place on `⚠️️DEPENDS`.
 
-Based on the data, Phrase the most usable CAT out of the three. However, only by a small margin. Trados and Wordfast are tied for second.
+Based on the data, Phrase is the most usable CAT out of the three. However, only by a small margin. Trados and Wordfast are tied for second.
 
 # Discussion of the results
 
@@ -93,11 +93,11 @@ Based on the data, Phrase the most usable CAT out of the three. However, only by
 
 Even though Phrase scored first, there are some reservations.
 
-On the down side, Phrase requires adequate settings for even the basic syntax to work as intended. Moreover, it can create issues in the output file. When it comes to features, it does not support comments to be omitted and Markdown reference. Especially Markdown reference can be a serious issue for knowledge bases created in Markdown.
+On the downside, Phrase requires adequate settings for even the basic syntax to work as intended. Moreover, it can create issues in the output file. When it comes to features, it does not support comments to be omitted and Markdown reference. Especially Markdown reference can be a serious issue for knowledge bases created in Markdown.
 
 On the upside, Phrase has some advantages over Trados and Wordfast. It has settings that can be configured by the user to adequately capture what elements need additional filtering. Also, it is the only CAT that supports translation of inline code and code blocks. These settings can be also turned off, so if code does not have to be translated, it is not visible in the editor. This protects against accidental edits.
 
-**Verdict**: good solution, covers almost everything, a lot can be configured by the user. However, the need for proper configuration is a disadvantage for less knowledgeable translators.
+**Verdict**: Good solution, covers almost everything, a lot can be configured by the user. However, the need for proper configuration is a disadvantage for less knowledgeable translators.
 
 ## [Trados Studio 2022](trados-00-overview.md)
 
@@ -109,17 +109,17 @@ The major disadvantage of Trados is the inability to translate inline code and M
 
 On the upside, Trados is the only CAT in which comments can be translated and this may be useful in certain situations. Also, once configured, it works well with vast majority of tested features.
 
-**Verdict**: good solution, an all-rounder that does not require much configuration. However, some configurations do not work, cause errors, or are not fail-proof, which may be problematic for translators.
+**Verdict**: Good solution, an all-rounder that does not require much configuration. However, some configurations do not work, cause errors, or are not fail-proof, which may be problematic for translators.
 
 ## [Wordfast Pro 8](wordfast-00-overview.md)
 
 As a [second-to-Trados](https://go.proz.com/blog/cat-tool-use-by-translators-what-are-they-using), Wordfast is also a solid solution for translating Markdown files. However, the overall impressions are mixed.
 
-On the downside, Wordfast behaves bizarrely. It has generated an error caused by a combination of different formatting tags. Tables work poorly in some settings. Also, even though it provides a lot of settings, it is only an illusion of choice. The majority of them would be always ticked as there are not many cases in which it would be advisable not to extract table headers, image title, or alt text. The biggest drawback of Wordfast is that comments, inline code, and code blocks cannot be translated.
+On the downside, Wordfast behaves bizarrely. It generated an error caused by a combination of different formatting tags. Tables work poorly in some settings. Also, even though it provides a lot of settings, it is only an illusion of choice. The majority of them would be always ticked as there are not many cases in which it would be advisable not to extract table headers, image title, or alt text. The biggest drawback of Wordfast is that comments, inline code, and code blocks cannot be translated.
 
 On the upside, the formatting error was caused by a fringe case that most likely will not occur in standard writing. Moreover, it can be reformulated to work. Also, Wordfast is the only CAT that supports translation of Markdown references, which makes it a perfect tool for e.g. knowledge bases because it also supports footnotes. Lastly, Wordfast reads embedded HTML without any issues, whether it is embedded fully between `<html></html>` tags or any other tags like `<sub></sub>`.
 
-**Verdict**: good solution and it would be the best if it supported translation of inline code or code blocks. Possibility of translating Markdown reference is a game changer in comparison with the other CATs. However, it has a disappointing illusion of the choice of settings, as many of them should be default.
+**Verdict**: Good solution and it would be the best if it supported translation of inline code or code blocks. Possibility of translating Markdown reference is a game changer in comparison with the other CATs. However, it has a disappointing illusion of the choice of settings, as many of them should be default.
 
 ## CATs in general
 

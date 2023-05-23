@@ -51,7 +51,7 @@ This section contains recommendations for technical writers (or generally, autho
 - Make sure you do not edit something that may be a tag when you translate the content of the inline code or code block
 - Contact the technical writer if characters are not used in a standard way in the source language
 - Make sure you do not edit something that may be a Markdown tag
-- Make sure you do not edit an emoji, e.g. `:exploding_head:`
+- Make sure you do not edit an emoji, e.g., `:exploding_head:`
 - Carefully check the output file for any missing elements
 
 ---

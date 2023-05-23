@@ -51,6 +51,7 @@ Lekcja z zajęć z Tomkiem ;)
 - zmienić nagłówki, zwłaszcza te z `—`, bo się psują odniesienia wewnętrzne
 - dać wycofanie do poprzedniej sekcji (zależne od tego, jak będzie wyglądać po publikacji)
 - upiększacze jak obrazki w niektórych sekcjach — do wstawienia na etapie publikacji
+- **info na podstawie rozmowy z Justyną: gdzie znaleźć ustawienia importu/filtrowania .md w danym CAT**
 
 ### Ewentualnie potencjalnie możliwe
 
@@ -73,19 +74,21 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 
 ## **OSTATKI DO SPRAWDZENIA**
 
-1. [phrase-00-overview.md](phrase-00-overview.md)
-2. [phrase-01-settings.md](phrase-01-settings.md)
-3. [phrase-02-results.md](phrase-02-results.md)
-4. [phrase-03-summary-and-recommendations.md](phrase-03-summary-and-recommendations.md)
-5. [top-comparison.md](top-comparison.md)
-6. [top-general-rec.md](top-general-rec.md)
-7. [top-conclusion.md](top-conclusion.md)
+1. ~~[phrase-00-overview.md](phrase-00-overview.md)~~
+2. ~~[phrase-01-settings.md](phrase-01-settings.md)~~
+3. ~~[phrase-02-results.md](phrase-02-results.md)~~
+4. ~~[phrase-03-summary-and-recommendations.md](phrase-03-summary-and-recommendations.md)~~
+5. ~~[top-comparison.md](top-comparison.md)~~
+6. ~~[top-general-rec.md](top-general-rec.md)~~
+7. ~~[top-conclusion.md](top-conclusion.md)~~
 
 ## Stare notatki
 
 1. ~~Część linków jest wstawiona do plików, których nie ma w repozytorium, bo je jeszcze piszę :) Dlatego linki do Phrase czy Tradosa nie zadziałają. Jest to wbrew pozorom "works as intended" 😅~~
 2. Skup się proszę na tym, czy część dotycząca Markdowna i problemów Markdowna w CAT-ach jest zrozumiała dla osób nie mających z tym do czynienia.
 3. Jeśli masz jakieś pomysły dotyczące objaśnienia CAT-ów laikom — śmiało komentuj!
+
+**@Paweł 3: Chyba to już wszystko. Czytając część teoretyczną brakowało mi charakteru instrukcji (w sensie jak otworzyć dany plik w tym czy innym CAT-cie i co zrobić jak się nie otwiera, a wyrzuca błędy - chyba, że jednak przegapiłam), ale widzę, że instrukcje pojawiają się potem w uwagach dla tłumaczy i technical writerów. Dobrze się to czyta, ja przynajmniej rozumiem o co "kaman" i myślę, że dałabym radę, gdybym dostała zlecenie przetłumaczenia pliku .md w którymś z "kotów". Jak miałam jeszcze jakieś uwagi, dałam je w poszczególnych plikach. Daj znać, jak będziesz czegoś jeszcze ode mnie potrzebował. Pomogę. :-)**
 
 **@Paweł: Poprawiłam, wg mnie dobrze się czyta i jest to zrozumiałe, napisane w przystępny sposób, dałam miejscami sugestie od siebie plus komentarze - do rozważenia, nie muszą być uwzględnione ;-)**
 
@@ -96,10 +99,6 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 *Dzięki, przerzuciłem wytyczne do notatek :) — P*
 
 # Notatki @Monika
-
-## Co już możesz sprawdzać
-
-*Wszystko* z wyjątkiem tych 7 plików wspomnianych wyżej u [Justyny](#ostatki-do-sprawdzenia).
 
 1. Skup się proszę na tym, czy część dotycząca CAT-ów i problemów Markdowna w CAT-ach jest zrozumiała dla osób nie mających z tym do czynienia.
 2. Jeśli masz jakieś pomysły dotyczące objaśnienia Markdowna laikom — śmiało komentuj!
