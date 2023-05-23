@@ -51,6 +51,7 @@ Lekcja z zajęć z Tomkiem ;)
 - zmienić nagłówki, zwłaszcza te z `—`, bo się psują odniesienia wewnętrzne
 - dać wycofanie do poprzedniej sekcji (zależne od tego, jak będzie wyglądać po publikacji)
 - upiększacze jak obrazki w niektórych sekcjach — do wstawienia na etapie publikacji
+- **info na podstawie rozmowy z Justyną: gdzie znaleźć ustawienia importu/filtrowania .md w danym CAT**
 
 ### Ewentualnie potencjalnie możliwe
 
@@ -73,13 +74,13 @@ Jeśli chodzi o komentowanie, to takie ogólne uwagi możecie robić przez `Issu
 
 ## **OSTATKI DO SPRAWDZENIA**
 
-1. [phrase-00-overview.md](phrase-00-overview.md)
-2. [phrase-01-settings.md](phrase-01-settings.md)
-3. [phrase-02-results.md](phrase-02-results.md)
-4. [phrase-03-summary-and-recommendations.md](phrase-03-summary-and-recommendations.md)
-5. [top-comparison.md](top-comparison.md)
-6. [top-general-rec.md](top-general-rec.md)
-7. [top-conclusion.md](top-conclusion.md)
+1. ~~[phrase-00-overview.md](phrase-00-overview.md)~~
+2. ~~[phrase-01-settings.md](phrase-01-settings.md)~~
+3. ~~[phrase-02-results.md](phrase-02-results.md)~~
+4. ~~[phrase-03-summary-and-recommendations.md](phrase-03-summary-and-recommendations.md)~~
+5. ~~[top-comparison.md](top-comparison.md)~~
+6. ~~[top-general-rec.md](top-general-rec.md)~~
+7. ~~[top-conclusion.md](top-conclusion.md)~~
 
 ## Stare notatki
 
