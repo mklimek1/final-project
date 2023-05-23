@@ -135,6 +135,8 @@ If the Markdown file contains very complex features and many elements like comme
 
 On a general level, successful translation of Markdown projects in CATs requires special considerations, which are covered in the next section.
 
+<!-- Moim zdaniem za duzo strony biernej, rozumiem ze tak bylo najlatwiej i wyszlo naturalnie, ale wyszlo tak super naukowo / Monika-->
+
 ---
 
 Go to section: [*General recommendations*](top-general-rec.md)
