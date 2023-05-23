@@ -118,6 +118,7 @@ As a [second-to-Trados](https://go.proz.com/blog/cat-tool-use-by-translators-wha
 On the downside, Wordfast behaves bizarrely. It generated an error caused by a combination of different formatting tags. Tables work poorly in some settings. Also, even though it provides a lot of settings, it is only an illusion of choice. The majority of them would be always ticked as there are not many cases in which it would be advisable not to extract table headers, image title, or alt text. The biggest drawback of Wordfast is that comments, inline code, and code blocks cannot be translated.
 
 On the upside, the formatting error was caused by a fringe case that most likely will not occur in standard writing. Moreover, it can be reformulated to work. Also, Wordfast is the only CAT that supports translation of Markdown references, which makes it a perfect tool for e.g. knowledge bases because it also supports footnotes. Lastly, Wordfast reads embedded HTML without any issues, whether it is embedded fully between `<html></html>` tags or any other tags like `<sub></sub>`.
+<!-- Moim zdaniem za duzo strony biernej, rozumiem ze tak bylo najlatwiej i wyszlo naturalnie, ale wyszlo tak super naukowo / Monika--> 
 
 **Verdict**: Good solution and it would be the best if it supported translation of inline code or code blocks. Possibility of translating Markdown reference is a game changer in comparison with the other CATs. However, it has a disappointing illusion of the choice of settings, as many of them should be default.
 
